@@ -1,0 +1,14 @@
+# Created by .ignore support plugin (hsz.mobi)
+.vscode
+data/total_word_feature_extractor_zh.dat
+events.db
+rasa.db
+.idea/Rasa_learn.iml
+.idea/encodings.xml
+.idea/inspectionProfiles/
+.idea/misc.xml
+.idea/modules.xml
+.idea/vcs.xml
+.vscode/launch.json
+__pycache__/
+policy/__pycache__/
