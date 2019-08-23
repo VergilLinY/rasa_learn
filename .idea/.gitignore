@@ -1,0 +1,10 @@
+# Default ignored files
+/workspace.xml
+.idea\encodings.xml
+.idea\misc.xml
+.idea\modules.xml
+.idea\Rasa_learn.iml
+.idea\vcs.xml
+.idea\workspace.xml
+.vscode\*
+data\total_word_feature_extractor_zh.dat

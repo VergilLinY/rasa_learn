@@ -1,0 +1,4484 @@
+{
+  "rasa_nlu_data": {
+    "common_examples": [
+      {
+        "intent": "inform_location",
+        "entities": [
+          {
+            "start": 2,
+            "end": 9,
+            "entity": "location",
+            "value": "荣悦台小区后门"
+          }
+        ],
+        "text": "我在荣悦台小区后门"
+      },
+      {
+        "intent": "confirm_job_situation",
+        "entities": [
+          {
+            "start": 2,
+            "end": 6,
+            "entity": "job_situation",
+            "value": "一切顺利"
+          }
+        ],
+        "text": "工作一切顺利"
+      },
+      {
+        "intent": "confirm",
+        "text": "是的"
+      },
+      {
+        "intent": "confirm",
+        "text": "对"
+      },
+      {
+        "intent": "confirm",
+        "text": "在"
+      },
+      {
+        "intent": "confirm",
+        "text": "嗯"
+      },
+      {
+        "intent": "confirm",
+        "text": "是"
+      },
+      {
+        "intent": "confirm",
+        "text": "对，我在"
+      },
+      {
+        "intent": "greet",
+        "text": "你好"
+      },
+      {
+        "intent": "goodbye",
+        "text": "再见"
+      },
+      {
+        "intent": "confirm_in_city",
+        "text": "在市区"
+      },
+      {
+        "intent": "confirm_health",
+        "text": "我的身体很健康"
+      },
+      {
+        "intent": "confirm_not_in_city",
+        "text": "我不在市区"
+      },
+      {
+        "intent": "confirm",
+        "text": "好的"
+      },
+      {
+        "intent": "confirm",
+        "text": "行"
+      },
+      {
+        "intent": "confirm",
+        "text": "可以啊可以"
+      },
+      {
+        "intent": "confirm",
+        "text": "可以的"
+      },
+      {
+        "intent": "confirm",
+        "text": "可以"
+      },
+      {
+        "intent": "confirm",
+        "text": "中中"
+      },
+      {
+        "intent": "confirm",
+        "text": "中"
+      },
+      {
+        "intent": "confirm",
+        "text": "对"
+      },
+      {
+        "intent": "confirm",
+        "text": "嗯嗯"
+      },
+      {
+        "intent": "confirm",
+        "text": "嗯嗯嗯"
+      },
+      {
+        "intent": "confirm",
+        "text": "恩恩"
+      },
+      {
+        "intent": "confirm",
+        "text": "恩恩恩"
+      },
+      {
+        "intent": "confirm",
+        "text": "嗯嗯，对对对"
+      },
+      {
+        "intent": "confirm",
+        "text": "嗯，对对对"
+      },
+      {
+        "intent": "confirm",
+        "text": "嗯好好"
+      },
+      {
+        "intent": "confirm",
+        "text": "恩好好"
+      },
+      {
+        "intent": "confirm",
+        "text": "嗯，好好"
+      },
+      {
+        "intent": "confirm",
+        "text": "恩，好好"
+      },
+      {
+        "intent": "confirm",
+        "text": "嗯对"
+      },
+      {
+        "intent": "confirm",
+        "text": "啊对"
+      },
+      {
+        "intent": "confirm",
+        "text": "是啊"
+      },
+      {
+        "intent": "confirm",
+        "text": "是"
+      },
+      {
+        "intent": "confirm",
+        "text": "对对对"
+      },
+      {
+        "intent": "confirm",
+        "text": "对啊"
+      },
+      {
+        "intent": "confirm",
+        "text": "对的"
+      },
+      {
+        "intent": "confirm",
+        "text": "嗯呐"
+      },
+      {
+        "intent": "confirm",
+        "text": "对头"
+      },
+      {
+        "intent": "confirm",
+        "text": "是的"
+      },
+      {
+        "intent": "confirm",
+        "text": "行的"
+      },
+      {
+        "intent": "confirm",
+        "text": "没问题"
+      },
+      {
+        "intent": "confirm",
+        "text": "恩"
+      },
+      {
+        "intent": "confirm",
+        "text": "嗯"
+      },
+      {
+        "intent": "confirm",
+        "text": "对，用本机"
+      },
+      {
+        "intent": "confirm",
+        "text": "是本机"
+      },
+      {
+        "intent": "deny",
+        "text": "不是"
+      },
+      {
+        "intent": "deny",
+        "text": "不对"
+      },
+      {
+        "intent": "deny",
+        "text": "不啊"
+      },
+      {
+        "intent": "deny",
+        "text": "不"
+      },
+      {
+        "intent": "deny",
+        "text": "错了"
+      },
+      {
+        "intent": "deny",
+        "text": "不是的"
+      },
+      {
+        "intent": "deny",
+        "text": "不中"
+      },
+      {
+        "intent": "deny",
+        "text": "不可以"
+      },
+      {
+        "intent": "deny",
+        "text": "没"
+      },
+      {
+        "intent": "deny",
+        "text": "没有"
+      },
+      {
+        "intent": "deny",
+        "text": "没有了"
+      },
+      {
+        "intent": "deny",
+        "text": "不用了"
+      },
+      {
+        "intent": "deny",
+        "text": "暂时不用了"
+      },
+      {
+        "intent": "deny",
+        "text": "好的没了"
+      },
+      {
+        "intent": "deny",
+        "text": "好不用了"
+      },
+      {
+        "intent": "confirm",
+        "text": "没错"
+      },
+      {
+        "intent": "confirm",
+        "text": "对了."
+      },
+      {
+        "intent": "confirm",
+        "text": "对了"
+      },
+      {
+        "intent": "confirm_job_situation",
+        "entities": [
+          {
+            "start": 2,
+            "end": 4,
+            "entity": "job_situation",
+            "value": "顺利",
+            "extractor": "MitieEntityExtractor"
+          }
+        ],
+        "text": "工作顺利"
+      },
+      {
+        "intent": "confirm_health",
+        "text": "身体健康"
+      },
+      {
+        "intent": "deny",
+        "text": "不方便"
+      },
+      {
+        "intent": "inform_location",
+        "entities": [
+          {
+            "start": 2,
+            "end": 6,
+            "entity": "location",
+            "value": "芙蓉北路"
+          }
+        ],
+        "text": "我在芙蓉北路"
+      },
+      {
+        "intent": "confirm",
+        "text": "方便"
+      },
+      {
+        "intent": "confirm",
+        "text": "是的，在市区"
+      },
+      {
+        "intent": "inform_location",
+        "entities": [
+          {
+            "start": 0,
+            "end": 14,
+            "entity": "location",
+            "value": "广州市天河区龙口中路130号"
+          }
+        ],
+        "text": "广州市天河区龙口中路130号"
+      },
+      {
+        "intent": "confirm_job_situation",
+        "entities": [
+          {
+            "start": 2,
+            "end": 4,
+            "entity": "job_situation",
+            "value": "正常"
+          }
+        ],
+        "text": "工作正常"
+      },
+      {
+        "intent": "no_job_exchange",
+        "text": "没有变动"
+      },
+      {
+        "intent": "confirm",
+        "text": "良好"
+      },
+      {
+        "intent": "confirm_job_situation",
+        "entities": [
+          {
+            "start": 0,
+            "end": 4,
+            "entity": "job_situation",
+            "value": "一切正常"
+          }
+        ],
+        "text": "一切正常"
+      },
+      {
+        "intent": "inform_location",
+        "entities": [
+          {
+            "start": 0,
+            "end": 10,
+            "entity": "location",
+            "value": "长沙市天心区新姚北路"
+          }
+        ],
+        "text": "长沙市天心区新姚北路"
+      },
+      {
+        "intent": "confirm_not_in_city",
+        "text": "不在市区"
+      },
+      {
+        "intent": "greet",
+        "text": "喂"
+      },
+      {
+        "intent": "greet",
+        "text": "喂，你好"
+      },
+      {
+        "intent": "no_job_exchange",
+        "text": "工作没有变动"
+      },
+      {
+        "intent": "confirm_not_in_city",
+        "text": "我现在不在市区"
+      },
+      {
+        "intent": "confirm_not_in_city",
+        "text": "现在不在"
+      },
+      {
+        "intent": "confirm_job_situation",
+        "entities": [
+          {
+            "start": 2,
+            "end": 6,
+            "entity": "job_situation",
+            "value": "比较顺利"
+          }
+        ],
+        "text": "工作比较顺利，都还行"
+      },
+      {
+        "intent": "inform_location",
+        "entities": [
+          {
+            "start": 5,
+            "end": 15,
+            "entity": "location",
+            "value": "南湖小区8栋302户"
+          }
+        ],
+        "text": "我现在住在南湖小区8栋302户"
+      },
+      {
+        "intent": "inform_location",
+        "entities": [
+          {
+            "start": 5,
+            "end": 14,
+            "entity": "location",
+            "value": "北京朝阳区阳光美墅"
+          }
+        ],
+        "text": "我现在住在北京朝阳区阳光美墅"
+      },
+      {
+        "intent": "inform_location",
+        "entities": [
+          {
+            "start": 0,
+            "end": 13,
+            "entity": "location",
+            "value": "海南天涯咫尺社区1523号"
+          }
+        ],
+        "text": "海南天涯咫尺社区1523号"
+      },
+      {
+        "intent": "inform_location",
+        "entities": [
+          {
+            "start": 0,
+            "end": 12,
+            "entity": "location",
+            "value": "长沙市宁乡市金洲北路1号"
+          }
+        ],
+        "text": "长沙市宁乡市金洲北路1号"
+      },
+      {
+        "intent": "inform_location",
+        "entities": [
+          {
+            "start": 0,
+            "end": 15,
+            "entity": "location",
+            "value": "湖南省长沙市长沙县果园镇双河村"
+          }
+        ],
+        "text": "湖南省长沙市长沙县果园镇双河村"
+      },
+      {
+        "intent": "inform_location",
+        "entities": [
+          {
+            "start": 0,
+            "end": 15,
+            "entity": "location",
+            "value": "南昌市湾里区梅岭大道1688号"
+          }
+        ],
+        "text": "南昌市湾里区梅岭大道1688号"
+      },
+      {
+        "intent": "inform_location",
+        "entities": [
+          {
+            "start": 0,
+            "end": 16,
+            "entity": "location",
+            "value": "安徽省宣城市宣州区薰化路301号"
+          }
+        ],
+        "text": "安徽省宣城市宣州区薰化路301号"
+      },
+      {
+        "intent": "inform_location",
+        "entities": [
+          {
+            "start": 0,
+            "end": 15,
+            "entity": "location",
+            "value": "江苏省盐城市亭湖区湖滨路88号"
+          }
+        ],
+        "text": "江苏省盐城市亭湖区湖滨路88号"
+      },
+      {
+        "intent": "confirm_job_situation",
+        "entities": [
+          {
+            "start": 0,
+            "end": 5,
+            "entity": "job_situation",
+            "value": "正常上下班"
+          }
+        ],
+        "text": "正常上下班"
+      },
+      {
+        "intent": "confirm_job_situation",
+        "entities": [
+          {
+            "start": 4,
+            "end": 6,
+            "entity": "job_situation",
+            "value": "还行",
+            "extractor": "MitieEntityExtractor"
+          }
+        ],
+        "text": "工作状况还行"
+      },
+      {
+        "intent": "confirm_job_situation",
+        "entities": [
+          {
+            "start": 2,
+            "end": 4,
+            "entity": "job_situation",
+            "value": "很好"
+          }
+        ],
+        "text": "工作很好"
+      },
+      {
+        "intent": "greet",
+        "text": "喂有事吗"
+      },
+      {
+        "intent": "greet",
+        "entities": [
+          {
+            "start": 2,
+            "end": 4,
+            "entity": "name",
+            "value": "赵文"
+          }
+        ],
+        "text": "我是赵文"
+      },
+      {
+        "intent": "greet",
+        "entities": [
+          {
+            "start": 2,
+            "end": 4,
+            "entity": "name",
+            "value": "张武"
+          }
+        ],
+        "text": "我是张武"
+      },
+      {
+        "intent": "confirm_in_city",
+        "text": "我在市里"
+      },
+      {
+        "intent": "confirm_in_city",
+        "text": "我在市区"
+      },
+      {
+        "intent": "confirm_in_city",
+        "text": "我现在在市区"
+      },
+      {
+        "intent": "confirm_in_city",
+        "text": "现在在"
+      },
+      {
+        "intent": "confirm_in_city",
+        "text": "在的"
+      },
+      {
+        "intent": "confirm_health",
+        "text": "身体很好"
+      },
+      {
+        "intent": "confirm_health",
+        "text": "身体还不错"
+      },
+      {
+        "intent": "confirm_health",
+        "text": "现在身体状况健康"
+      },
+      {
+        "intent": "confirm_health",
+        "text": "我的身体没毛病"
+      },
+      {
+        "intent": "deny",
+        "text": "不在"
+      },
+      {
+        "intent": "confirm_health",
+        "text": "很健康"
+      },
+      {
+        "intent": "confirm_health",
+        "text": "我很健康"
+      },
+      {
+        "intent": "confirm_job_situation",
+        "entities": [
+          {
+            "start": 2,
+            "end": 6,
+            "entity": "job_situation",
+            "value": "一切正常"
+          }
+        ],
+        "text": "工作一切正常"
+      },
+      {
+        "intent": "inform_location",
+        "entities": [
+          {
+            "start": 0,
+            "end": 18,
+            "entity": "location",
+            "value": "湖北省武汉市新洲区汪集街荣生路32号"
+          }
+        ],
+        "text": "湖北省武汉市新洲区汪集街荣生路32号"
+      },
+      {
+        "intent": "confirm_in_city",
+        "text": "我在市内"
+      },
+      {
+        "intent": "greet",
+        "text": "你好，你是哪位"
+      },
+      {
+        "intent": "greet",
+        "text": "嗨"
+      },
+      {
+        "intent": "no_job_exchange",
+        "text": "近期工作没变动"
+      },
+      {
+        "intent": "no_job_exchange",
+        "text": "没有工作变动"
+      },
+      {
+        "intent": "no_job_exchange",
+        "text": "没变动呢"
+      },
+      {
+        "intent": "no_job_exchange",
+        "text": "工作没变动"
+      },
+      {
+        "intent": "no_job_exchange",
+        "text": "最近没变动"
+      },
+      {
+        "intent": "confirm",
+        "text": "是的，在"
+      },
+      {
+        "intent": "inform_location",
+        "entities": [
+          {
+            "start": 2,
+            "end": 11,
+            "entity": "location",
+            "value": "湖北省广东市武昌区"
+          }
+        ],
+        "text": "我在湖北省广东市武昌区"
+      },
+      {
+        "intent": "answer_job_exchange_reason",
+        "entities": [
+          {
+            "start": 2,
+            "end": 10,
+            "entity": "job_exchange_reason",
+            "value": "以前的公司倒闭了"
+          }
+        ],
+        "text": "因为以前的公司倒闭了，所以换了新的工作"
+      },
+      {
+        "intent": "answer_job_exchange_reason",
+        "entities": [
+          {
+            "start": 4,
+            "end": 15,
+            "entity": "new_job_location",
+            "value": "天心区新姚北路天龙大厦"
+          }
+        ],
+        "text": "新公司在天心区新姚北路天龙大厦"
+      },
+      {
+        "intent": "confirm_job_situation",
+        "entities": [
+          {
+            "start": 0,
+            "end": 2,
+            "entity": "job_situation",
+            "value": "顺利"
+          }
+        ],
+        "text": "顺利"
+      },
+      {
+        "intent": "inform_location",
+        "entities": [
+          {
+            "start": 0,
+            "end": 8,
+            "entity": "location",
+            "value": "湖北武汉阳光美墅"
+          }
+        ],
+        "text": "湖北武汉阳光美墅"
+      },
+      {
+        "intent": "deny_health",
+        "text": "身体不太健康"
+      },
+      {
+        "intent": "deny_health",
+        "text": "健康有问题"
+      },
+      {
+        "intent": "deny_health",
+        "text": "健康有状况"
+      },
+      {
+        "intent": "deny_health",
+        "text": "身体不好"
+      },
+      {
+        "intent": "with_medical_treatment",
+        "text": "有就诊"
+      },
+      {
+        "intent": "deny_health",
+        "text": "有住院"
+      },
+      {
+        "intent": "deny_health",
+        "text": "有手术"
+      },
+      {
+        "intent": "deny_health",
+        "entities": [
+          {
+            "start": 3,
+            "end": 9,
+            "entity": "unhealth_status",
+            "value": "我的腿有毛病"
+          }
+        ],
+        "text": "我怀疑我的腿有毛病"
+      },
+      {
+        "intent": "deny_health",
+        "entities": [
+          {
+            "start": 3,
+            "end": 10,
+            "entity": "unhealth_status",
+            "value": "我的心脏不太好"
+          }
+        ],
+        "text": "我觉得我的心脏不太好"
+      },
+      {
+        "intent": "with_medical_treatment",
+        "entities": [
+          {
+            "start": 6,
+            "end": 11,
+            "entity": "unhealth_status",
+            "value": "心脏不舒服"
+          }
+        ],
+        "text": "前段时间感觉心脏不舒服，去医院看了看，医生给开了药"
+      },
+      {
+        "intent": "without_medical_treatment_reason",
+        "entities": [
+          {
+            "start": 2,
+            "end": 15,
+            "entity": "without_medical_reason",
+            "value": "工作太忙，没有时间"
+          }
+        ],
+        "text": "因为工作太忙，没有时间去看医生"
+      },
+      {
+        "intent": "confirm_not_in_city",
+        "text": "我现在不在市里"
+      },
+      {
+        "intent": "confirm_not_in_city",
+        "text": "我现在并不在XX市了"
+      },
+      {
+        "intent": "confirm_not_in_city",
+        "text": "我现在不在XX市了"
+      },
+      {
+        "intent": "confirm_not_in_city",
+        "text": "现在不再"
+      },
+      {
+        "intent": "confirm_job_exchange",
+        "text": "有变动，换了个单位"
+      },
+      {
+        "intent": "confirm_job_exchange",
+        "text": "有变动"
+      },
+      {
+        "intent": "confirm_job_exchange",
+        "text": "对的有变动，换了家公司"
+      },
+      {
+        "intent": "confirm_job_exchange",
+        "text": "有变动，换了一份工作"
+      },
+      {
+        "intent": "confirm_job_exchange",
+        "text": "对的有变动，现在在宜家上班"
+      },
+      {
+        "intent": "confirm_job_exchange",
+        "text": "现在到屈臣氏上班了，换了一家公司"
+      },
+      {
+        "intent": "confirm_leave_approval_status",
+        "text": "有申请并获得批准"
+      },
+      {
+        "intent": "confirm_leave_approval_status",
+        "text": "对的，我有申请"
+      },
+      {
+        "intent": "confirm_leave_approval_status",
+        "text": "申请了"
+      },
+      {
+        "intent": "answer_job_exchange_reason",
+        "entities": [
+          {
+            "start": 2,
+            "end": 5,
+            "entity": "job_exchange_reason",
+            "value": "搬家了"
+          }
+        ],
+        "text": "因为搬家了，所以换了工作"
+      },
+      {
+        "intent": "answer_job_exchange_reason",
+        "entities": [
+          {
+            "start": 17,
+            "end": 28,
+            "entity": "new_job_location",
+            "value": "雨花区珞瑜路1232号"
+          },
+          {
+            "start": 0,
+            "end": 10,
+            "entity": "job_exchange_reason",
+            "value": "以前公司的待遇低一些"
+          }
+        ],
+        "text": "以前公司的待遇低一些，现在新公司在雨花区珞瑜路1232号"
+      },
+      {
+        "intent": "with_medical_treatment",
+        "entities": [
+          {
+            "start": 4,
+            "end": 8,
+            "entity": "unhealth_status",
+            "value": "身体不适"
+          }
+        ],
+        "text": "前段时间身体不适就去医院看了下"
+      },
+      {
+        "intent": "with_medical_treatment",
+        "entities": [
+          {
+            "start": 6,
+            "end": 10,
+            "entity": "unhealth_status",
+            "value": "鼻炎犯了"
+          }
+        ],
+        "text": "前段时间感觉鼻炎犯了，就去开了点药"
+      },
+      {
+        "intent": "with_medical_treatment",
+        "entities": [
+          {
+            "start": 5,
+            "end": 9,
+            "entity": "unhealth_status",
+            "value": "手有点麻"
+          }
+        ],
+        "text": "这星期感觉手有点麻，就找赵医生看了一下"
+      },
+      {
+        "intent": "without_medical_treatment_reason",
+        "entities": [
+          {
+            "start": 2,
+            "end": 4,
+            "entity": "without_medical_reason",
+            "value": "没钱"
+          }
+        ],
+        "text": "因为没钱所以就没找医生"
+      },
+      {
+        "intent": "without_medical_treatment_reason",
+        "entities": [
+          {
+            "start": 3,
+            "end": 12,
+            "entity": "without_medical_reason",
+            "value": "感冒比较容易自己好"
+          }
+        ],
+        "text": "我感觉感冒比较容易自己好，所以就没有专门去医院，喝了点药就好了"
+      },
+      {
+        "intent": "deny_leave_approval_status",
+        "text": "没有申请"
+      },
+      {
+        "intent": "deny_leave_approval_status",
+        "text": "我还没有请假"
+      },
+      {
+        "intent": "without_medical_treatment",
+        "text": "得了感冒但是没有去看病"
+      },
+      {
+        "intent": "without_medical_treatment",
+        "entities": [
+          {
+            "start": 2,
+            "end": 7,
+            "entity": "unhealth_status",
+            "value": "肚子不舒服"
+          }
+        ],
+        "text": "虽然肚子不舒服但是没有去看病"
+      },
+      {
+        "intent": "inform_location",
+        "entities": [
+          {
+            "start": 2,
+            "end": 11,
+            "entity": "location",
+            "value": "开福区福元路21号"
+          }
+        ],
+        "text": "我在开福区福元路21号"
+      },
+      {
+        "intent": "confirm_job_exchange",
+        "text": "我最近换工作了"
+      },
+      {
+        "intent": "answer_job_exchange_reason",
+        "entities": [
+          {
+            "start": 12,
+            "end": 19,
+            "entity": "job_exchange_reason",
+            "value": "那边离家比较近"
+          },
+          {
+            "start": 3,
+            "end": 6,
+            "entity": "new_job_location",
+            "value": "万家乐"
+          }
+        ],
+        "text": "我换到万家乐上班了，因为那边离家比较近"
+      },
+      {
+        "intent": "confirm_job_situation",
+        "entities": [
+          {
+            "start": 2,
+            "end": 8,
+            "entity": "job_situation",
+            "value": "工作一切顺利"
+          }
+        ],
+        "text": "最近工作一切顺利"
+      },
+      {
+        "intent": "confirm_health",
+        "text": "状况良好"
+      },
+      {
+        "intent": "greet",
+        "entities": [
+          {
+            "start": 4,
+            "end": 7,
+            "entity": "name",
+            "value": "周星星"
+          }
+        ],
+        "text": "喂，我是周星星"
+      },
+      {
+        "intent": "goodbye",
+        "text": "好，那我挂了"
+      },
+      {
+        "intent": "goodbye",
+        "text": "好，再见"
+      },
+      {
+        "intent": "goodbye",
+        "text": "那我挂了"
+      },
+      {
+        "intent": "goodbye",
+        "text": "行，那我挂了"
+      },
+      {
+        "intent": "goodbye",
+        "text": "拜拜"
+      },
+      {
+        "intent": "deny",
+        "text": "我不在"
+      },
+      {
+        "intent": "deny_leave_approval_status",
+        "text": "没有获批"
+      },
+      {
+        "intent": "inform_location",
+        "entities": [
+          {
+            "start": 2,
+            "end": 13,
+            "entity": "location",
+            "value": "建安大道旁边的铁道学院"
+          }
+        ],
+        "text": "我在建安大道旁边的铁道学院"
+      },
+      {
+        "intent": "confirm_job_situation",
+        "entities": [
+          {
+            "start": 4,
+            "end": 8,
+            "entity": "job_situation",
+            "value": "还算顺利",
+            "extractor": "MitieEntityExtractor"
+          }
+        ],
+        "text": "近期工作还算顺利"
+      },
+      {
+        "intent": "deny_health",
+        "text": "最近生病住院了"
+      },
+      {
+        "intent": "with_medical_treatment",
+        "entities": [
+          {
+            "start": 2,
+            "end": 8,
+            "entity": "unhealth_status",
+            "value": "还在住院期间"
+          }
+        ],
+        "text": "现在还在住院期间，在湖南第十一医院就医"
+      },
+      {
+        "intent": "inform_location",
+        "entities": [
+          {
+            "start": 7,
+            "end": 16,
+            "entity": "location",
+            "value": "靖港镇新峰村27组"
+          }
+        ],
+        "text": "我现在的地址是靖港镇新峰村27组"
+      },
+      {
+        "intent": "inform_location",
+        "entities": [
+          {
+            "start": 5,
+            "end": 23,
+            "entity": "location",
+            "value": "湖南省长沙市望城区X070(靖格路)"
+          }
+        ],
+        "text": "我的地址是湖南省长沙市望城区X070(靖格路)"
+      },
+      {
+        "intent": "inform_location",
+        "entities": [
+          {
+            "start": 0,
+            "end": 18,
+            "entity": "location",
+            "value": "湖南省长沙市望城区东城镇东城中心小学"
+          }
+        ],
+        "text": "湖南省长沙市望城区东城镇东城中心小学"
+      },
+      {
+        "intent": "inform_location",
+        "entities": [
+          {
+            "start": 0,
+            "end": 18,
+            "entity": "location",
+            "value": "河南省南阳市淅川县X035(文清线)"
+          }
+        ],
+        "text": "河南省南阳市淅川县X035(文清线)"
+      },
+      {
+        "intent": "inform_location",
+        "entities": [
+          {
+            "start": 0,
+            "end": 15,
+            "entity": "location",
+            "value": "河南省南阳市淅川县九龙镇白庙村"
+          }
+        ],
+        "text": "河南省南阳市淅川县九龙镇白庙村"
+      },
+      {
+        "intent": "inform_location",
+        "entities": [
+          {
+            "start": 3,
+            "end": 19,
+            "entity": "location",
+            "value": "湖北省十堰市丹江口市均县镇G70"
+          }
+        ],
+        "text": "地址是湖北省十堰市丹江口市均县镇G70"
+      },
+      {
+        "intent": "inform_location",
+        "entities": [
+          {
+            "start": 0,
+            "end": 19,
+            "entity": "location",
+            "value": "湖北省十堰市郧阳区南化塘镇黄柿坪村七组"
+          }
+        ],
+        "text": "湖北省十堰市郧阳区南化塘镇黄柿坪村七组"
+      },
+      {
+        "intent": "inform_location",
+        "entities": [
+          {
+            "start": 3,
+            "end": 17,
+            "entity": "location",
+            "value": "渭南市合阳县西街广场小区西门"
+          }
+        ],
+        "text": "我家在渭南市合阳县西街广场小区西门"
+      },
+      {
+        "intent": "inform_location",
+        "entities": [
+          {
+            "start": 5,
+            "end": 20,
+            "entity": "location",
+            "value": "解放南路世丰城西区C座112号"
+          }
+        ],
+        "text": "家庭住址是解放南路世丰城西区C座112号"
+      },
+      {
+        "intent": "inform_location",
+        "entities": [
+          {
+            "start": 0,
+            "end": 27,
+            "entity": "location",
+            "value": "陕西省渭南市合阳县印光大道与108国道交叉口南200米"
+          }
+        ],
+        "text": "陕西省渭南市合阳县印光大道与108国道交叉口南200米就在那边"
+      },
+      {
+        "intent": "inform_location",
+        "entities": [
+          {
+            "start": 3,
+            "end": 24,
+            "entity": "location",
+            "value": "山西省大同市广灵县聚福园就在罗城线东80米"
+          }
+        ],
+        "text": "地址是山西省大同市广灵县聚福园就在罗城线东80米"
+      },
+      {
+        "intent": "inform_location",
+        "entities": [
+          {
+            "start": 1,
+            "end": 13,
+            "entity": "location",
+            "value": "山西省大同市广灵县观音堂"
+          }
+        ],
+        "text": "额山西省大同市广灵县观音堂"
+      },
+      {
+        "intent": "inform_location",
+        "entities": [
+          {
+            "start": 0,
+            "end": 23,
+            "entity": "location",
+            "value": "山西省大同市广灵县广泰东街就在广灵县大酒店对面"
+          }
+        ],
+        "text": "山西省大同市广灵县广泰东街就在广灵县大酒店对面"
+      },
+      {
+        "intent": "inform_location",
+        "entities": [
+          {
+            "start": 0,
+            "end": 28,
+            "entity": "location",
+            "value": "木樨地北里甲11号国宏大厦C座3-4层中国计划出版社附近"
+          }
+        ],
+        "text": "木樨地北里甲11号国宏大厦C座3-4层中国计划出版社附近"
+      },
+      {
+        "intent": "inform_location",
+        "entities": [
+          {
+            "start": 0,
+            "end": 12,
+            "entity": "location",
+            "value": "西便门外大街西里新7号楼"
+          }
+        ],
+        "text": "西便门外大街西里新7号楼"
+      },
+      {
+        "intent": "inform_location",
+        "entities": [
+          {
+            "start": 0,
+            "end": 25,
+            "entity": "location",
+            "value": "北京市西城区大秤钩胡同9号就在国信苑宾馆对面胡同内"
+          }
+        ],
+        "text": "北京市西城区大秤钩胡同9号就在国信苑宾馆对面胡同内"
+      },
+      {
+        "intent": "inform_location",
+        "entities": [
+          {
+            "start": 0,
+            "end": 8,
+            "entity": "location",
+            "value": "西城月坛西街6号"
+          }
+        ],
+        "text": "西城月坛西街6号"
+      },
+      {
+        "intent": "inform_location",
+        "entities": [
+          {
+            "start": 0,
+            "end": 14,
+            "entity": "location",
+            "value": "北京市海淀区航天机关门球之苑"
+          }
+        ],
+        "text": "北京市海淀区航天机关门球之苑"
+      },
+      {
+        "intent": "inform_location",
+        "entities": [
+          {
+            "start": 0,
+            "end": 13,
+            "entity": "location",
+            "value": "北京市海淀区翠微南里23号"
+          }
+        ],
+        "text": "北京市海淀区翠微南里23号"
+      },
+      {
+        "intent": "inform_location",
+        "entities": [
+          {
+            "start": 0,
+            "end": 32,
+            "entity": "location",
+            "value": "西翠路与金沟河东路交叉口西100米紫金长安-三期11栋1156户"
+          }
+        ],
+        "text": "西翠路与金沟河东路交叉口西100米紫金长安-三期11栋1156户"
+      },
+      {
+        "intent": "inform_location",
+        "entities": [
+          {
+            "start": 3,
+            "end": 33,
+            "entity": "location",
+            "value": "北京市海淀区永定路21号院1号楼西南90米就在百家盛超市对面"
+          }
+        ],
+        "text": "地址是北京市海淀区永定路21号院1号楼西南90米就在百家盛超市对面"
+      },
+      {
+        "intent": "inform_location",
+        "entities": [
+          {
+            "start": 0,
+            "end": 16,
+            "entity": "location",
+            "value": "西藏自治区拉萨市墨竹工卡县15号"
+          }
+        ],
+        "text": "西藏自治区拉萨市墨竹工卡县15号"
+      },
+      {
+        "intent": "inform_location",
+        "entities": [
+          {
+            "start": 0,
+            "end": 26,
+            "entity": "location",
+            "value": "西藏自治区拉萨市城关区扎细街道军民路哈达幸福花苑小区"
+          }
+        ],
+        "text": "西藏自治区拉萨市城关区扎细街道军民路哈达幸福花苑小区"
+      },
+      {
+        "intent": "inform_location",
+        "entities": [
+          {
+            "start": 0,
+            "end": 16,
+            "entity": "location",
+            "value": "拉萨市城关区娘热乡娘热北路43号"
+          }
+        ],
+        "text": "拉萨市城关区娘热乡娘热北路43号嗯"
+      },
+      {
+        "intent": "inform_location",
+        "entities": [
+          {
+            "start": 0,
+            "end": 19,
+            "entity": "location",
+            "value": "西藏自治区拉萨市城关区北京西路217号"
+          }
+        ],
+        "text": "西藏自治区拉萨市城关区北京西路217号"
+      },
+      {
+        "intent": "inform_location",
+        "entities": [
+          {
+            "start": 0,
+            "end": 28,
+            "entity": "location",
+            "value": "西藏自治区拉萨市堆龙德庆区柳梧乡北京大道金盾苑1452号"
+          }
+        ],
+        "text": "西藏自治区拉萨市堆龙德庆区柳梧乡北京大道金盾苑1452号"
+      },
+      {
+        "intent": "inform_location",
+        "entities": [
+          {
+            "start": 0,
+            "end": 25,
+            "entity": "location",
+            "value": "新疆维吾尔自治区巴音郭楞蒙古自治州库尔勒市建国南路"
+          }
+        ],
+        "text": "新疆维吾尔自治区巴音郭楞蒙古自治州库尔勒市建国南路"
+      },
+      {
+        "intent": "inform_location",
+        "entities": [
+          {
+            "start": 3,
+            "end": 44,
+            "entity": "location",
+            "value": "新疆维吾尔自治区巴音郭楞蒙古自治州和静县S206第二师铁门关经济工业园区绿原工业园"
+          }
+        ],
+        "text": "我家在新疆维吾尔自治区巴音郭楞蒙古自治州和静县S206第二师铁门关经济工业园区绿原工业园"
+      },
+      {
+        "intent": "confirm_job_situation",
+        "entities": [
+          {
+            "start": 2,
+            "end": 6,
+            "entity": "job_situation",
+            "value": "工作顺利"
+          }
+        ],
+        "text": "最近工作顺利，没什么问题"
+      },
+      {
+        "intent": "confirm_job_situation",
+        "entities": [
+          {
+            "start": 4,
+            "end": 12,
+            "entity": "job_situation",
+            "value": "刚上班，还在适应"
+          }
+        ],
+        "text": "工作的话刚上班，还在适应"
+      },
+      {
+        "intent": "confirm_job_situation",
+        "entities": [
+          {
+            "start": 4,
+            "end": 9,
+            "entity": "job_situation",
+            "value": "正常上下班"
+          }
+        ],
+        "text": "每天都是正常上下班"
+      },
+      {
+        "intent": "confirm_job_situation",
+        "entities": [
+          {
+            "start": 3,
+            "end": 7,
+            "entity": "job_situation",
+            "value": "正常上班"
+          }
+        ],
+        "text": "每天都正常上班"
+      },
+      {
+        "intent": "confirm_job_situation",
+        "entities": [
+          {
+            "start": 4,
+            "end": 7,
+            "entity": "job_situation",
+            "value": "挺好的"
+          }
+        ],
+        "text": "工作的话挺好的"
+      },
+      {
+        "intent": "confirm_job_situation",
+        "entities": [
+          {
+            "start": 2,
+            "end": 6,
+            "entity": "job_situation",
+            "value": "一切正常"
+          }
+        ],
+        "text": "工作一切正常呗"
+      },
+      {
+        "intent": "confirm_job_situation",
+        "entities": [
+          {
+            "start": 2,
+            "end": 7,
+            "entity": "job_situation",
+            "value": "没什么问题"
+          }
+        ],
+        "text": "工作没什么问题"
+      },
+      {
+        "intent": "confirm_job_situation",
+        "entities": [
+          {
+            "start": 5,
+            "end": 9,
+            "entity": "job_situation",
+            "value": "没啥问题"
+          }
+        ],
+        "text": "基本上工作没啥问题"
+      },
+      {
+        "intent": "confirm_job_situation",
+        "entities": [
+          {
+            "start": 4,
+            "end": 8,
+            "entity": "job_situation",
+            "value": "挺顺利的"
+          }
+        ],
+        "text": "我的工作挺顺利的"
+      },
+      {
+        "intent": "confirm_job_situation",
+        "entities": [
+          {
+            "start": 2,
+            "end": 7,
+            "entity": "job_situation",
+            "value": "还算不错吧"
+          },
+          {
+            "start": 8,
+            "end": 12,
+            "entity": "job_situation",
+            "value": " 挺好的"
+          },
+          {
+            "start": 15,
+            "end": 20,
+            "entity": "job_situation",
+            "value": "正常上下班"
+          }
+        ],
+        "text": "工作还算不错吧， 挺好的，就是正常上下班"
+      },
+      {
+        "intent": "confirm_job_situation",
+        "entities": [
+          {
+            "start": 2,
+            "end": 9,
+            "entity": "job_situation",
+            "value": "基本上没啥问题"
+          }
+        ],
+        "text": "工作基本上没啥问题"
+      },
+      {
+        "intent": "confirm_job_situation",
+        "entities": [
+          {
+            "start": 2,
+            "end": 6,
+            "entity": "job_situation",
+            "value": "状况正常"
+          }
+        ],
+        "text": "工作状况正常"
+      },
+      {
+        "intent": "confirm_job_situation",
+        "entities": [
+          {
+            "start": 0,
+            "end": 3,
+            "entity": "job_situation",
+            "value": "挺好的"
+          }
+        ],
+        "text": "挺好的啊我的工作"
+      },
+      {
+        "intent": "confirm_job_situation",
+        "entities": [
+          {
+            "start": 2,
+            "end": 7,
+            "entity": "job_situation",
+            "value": "也都还行吧"
+          }
+        ],
+        "text": "工作也都还行吧"
+      },
+      {
+        "intent": "confirm_job_situation",
+        "entities": [
+          {
+            "start": 2,
+            "end": 6,
+            "entity": "job_situation",
+            "value": "还算可以"
+          }
+        ],
+        "text": "工作还算可以的"
+      },
+      {
+        "intent": "confirm_job_situation",
+        "entities": [
+          {
+            "start": 2,
+            "end": 9,
+            "entity": "job_situation",
+            "value": "基本没什么问题"
+          }
+        ],
+        "text": "工作基本没什么问题"
+      },
+      {
+        "intent": "confirm_job_situation",
+        "entities": [
+          {
+            "start": 2,
+            "end": 9,
+            "entity": "job_situation",
+            "value": "挺好的没有问题"
+          }
+        ],
+        "text": "工作挺好的没有问题"
+      },
+      {
+        "intent": "confirm_job_situation",
+        "entities": [
+          {
+            "start": 2,
+            "end": 7,
+            "entity": "job_situation",
+            "value": "爽的一批啊"
+          }
+        ],
+        "text": "工作爽的一批啊"
+      },
+      {
+        "intent": "confirm_job_situation",
+        "entities": [
+          {
+            "start": 2,
+            "end": 8,
+            "entity": "job_situation",
+            "value": "基本就那样吧"
+          }
+        ],
+        "text": "上班基本就那样吧"
+      },
+      {
+        "intent": "confirm_job_situation",
+        "entities": [
+          {
+            "start": 4,
+            "end": 6,
+            "entity": "job_situation",
+            "value": "还行"
+          }
+        ],
+        "text": "上班的话还行"
+      },
+      {
+        "intent": "confirm_job_situation",
+        "entities": [
+          {
+            "start": 2,
+            "end": 5,
+            "entity": "job_situation",
+            "value": "还不错"
+          }
+        ],
+        "text": "上班还不错"
+      },
+      {
+        "intent": "confirm_job_situation",
+        "entities": [
+          {
+            "start": 2,
+            "end": 8,
+            "entity": "job_situation",
+            "value": "可以的啊还行"
+          }
+        ],
+        "text": "工作可以的啊还行"
+      },
+      {
+        "intent": "confirm_in_city",
+        "text": "对的我在市区"
+      },
+      {
+        "intent": "confirm_in_city",
+        "text": "我现在就在市内"
+      },
+      {
+        "intent": "confirm_in_city",
+        "text": "我在长沙"
+      },
+      {
+        "intent": "confirm_in_city",
+        "text": "我现在在长沙"
+      },
+      {
+        "intent": "confirm_in_city",
+        "text": "在长沙市内呢"
+      },
+      {
+        "intent": "confirm_in_city",
+        "text": "现在在的"
+      },
+      {
+        "intent": "confirm_in_city",
+        "text": "现在啊在市内"
+      },
+      {
+        "intent": "confirm_health",
+        "text": "我现在健康状况良好没有那些情况"
+      },
+      {
+        "intent": "confirm_health",
+        "text": "现在身体健康呢"
+      },
+      {
+        "intent": "confirm_health",
+        "text": "对现在健康状况良好"
+      },
+      {
+        "intent": "confirm_health",
+        "text": "身体还行挺健康的"
+      },
+      {
+        "intent": "confirm_health",
+        "text": "挺健康的没什么问题"
+      },
+      {
+        "intent": "confirm_health",
+        "text": "身体蛮好的"
+      },
+      {
+        "intent": "confirm_health",
+        "text": "健康状况良好"
+      },
+      {
+        "intent": "confirm_health",
+        "text": "身体还行没问题"
+      },
+      {
+        "intent": "confirm_health",
+        "text": "我身体还可以比较健康"
+      },
+      {
+        "intent": "confirm_health",
+        "text": "身体比较健康没有问题"
+      },
+      {
+        "intent": "greet",
+        "text": "hi"
+      },
+      {
+        "intent": "deny_leave_approval_status",
+        "text": "我没有申请"
+      },
+      {
+        "intent": "inform_location",
+        "entities": [
+          {
+            "start": 0,
+            "end": 12,
+            "entity": "location",
+            "value": "厦门金台银光大厦876号"
+          }
+        ],
+        "text": "厦门金台银光大厦876号"
+      },
+      {
+        "intent": "no_job_exchange",
+        "text": "工作未变动"
+      },
+      {
+        "intent": "confirm_job_situation",
+        "entities": [
+          {
+            "start": 2,
+            "end": 5,
+            "entity": "job_situation",
+            "value": "都正常"
+          }
+        ],
+        "text": "工作都正常"
+      },
+      {
+        "intent": "confirm_health",
+        "text": "我挺健康的"
+      },
+      {
+        "intent": "answer_job_exchange_reason",
+        "entities": [
+          {
+            "start": 10,
+            "end": 18,
+            "entity": "job_exchange_reason",
+            "value": "准备转行当程序员"
+          },
+          {
+            "start": 4,
+            "end": 6,
+            "entity": "new_job_location",
+            "value": "河西"
+          }
+        ],
+        "text": "工作换到河西了，因为准备转行当程序员所以换的工作"
+      },
+      {
+        "intent": "answer_job_exchange_reason",
+        "entities": [
+          {
+            "start": 2,
+            "end": 14,
+            "entity": "job_exchange_reason",
+            "value": "前面的工作感觉薪水比较低"
+          },
+          {
+            "start": 19,
+            "end": 23,
+            "entity": "new_job_location",
+            "value": "恒大雅苑"
+          }
+        ],
+        "text": "因为前面的工作感觉薪水比较低，所以换到恒大雅苑做保安"
+      },
+      {
+        "intent": "answer_job_exchange_reason",
+        "entities": [
+          {
+            "start": 16,
+            "end": 25,
+            "entity": "job_exchange_reason",
+            "value": "我的家里那边比较近"
+          },
+          {
+            "start": 8,
+            "end": 13,
+            "entity": "new_job_location",
+            "value": "太马尔酒店"
+          }
+        ],
+        "text": "啊我的工作变动到太马尔酒店，因为我的家里那边比较近"
+      },
+      {
+        "intent": "answer_job_exchange_reason",
+        "entities": [
+          {
+            "start": 6,
+            "end": 17,
+            "entity": "new_job_location",
+            "value": "泰晤士河西边的歌德剧院"
+          },
+          {
+            "start": 20,
+            "end": 25,
+            "entity": "job_exchange_reason",
+            "value": "待遇比较好"
+          }
+        ],
+        "text": "我的新工作在泰晤士河西边的歌德剧院，那边待遇比较好所以换了过去"
+      },
+      {
+        "intent": "answer_job_exchange_reason",
+        "entities": [
+          {
+            "start": 6,
+            "end": 21,
+            "entity": "new_job_location",
+            "value": "城南沃尔码对面的泰香鱼翅火锅店"
+          },
+          {
+            "start": 23,
+            "end": 32,
+            "entity": "job_exchange_reason",
+            "value": "我哥哥在那边当厨师"
+          }
+        ],
+        "text": "我的新工作在城南沃尔码对面的泰香鱼翅火锅店因为我哥哥在那边当厨师"
+      },
+      {
+        "intent": "answer_job_exchange_reason",
+        "entities": [
+          {
+            "start": 3,
+            "end": 5,
+            "entity": "new_job_location",
+            "value": "奇科"
+          },
+          {
+            "start": 9,
+            "end": 25,
+            "entity": "job_exchange_reason",
+            "value": "奇科公司对我来说更有挑战更好进步"
+          }
+        ],
+        "text": "我换到奇科因为感觉奇科公司对我来说更有挑战更好进步"
+      },
+      {
+        "intent": "answer_job_exchange_reason",
+        "entities": [
+          {
+            "start": 12,
+            "end": 23,
+            "entity": "job_exchange_reason",
+            "value": "那边的工作环境更好一些"
+          },
+          {
+            "start": 3,
+            "end": 10,
+            "entity": "new_job_location",
+            "value": "领秀律师事务所"
+          }
+        ],
+        "text": "我到了领秀律师事务所因为那边的工作环境更好一些"
+      },
+      {
+        "intent": "answer_job_exchange_reason",
+        "entities": [
+          {
+            "start": 5,
+            "end": 10,
+            "entity": "new_job_location",
+            "value": "带没火锅店"
+          },
+          {
+            "start": 12,
+            "end": 26,
+            "entity": "job_exchange_reason",
+            "value": "我的职业经验他们那边正好需要"
+          }
+        ],
+        "text": "工作换到了带没火锅店因为我的职业经验他们那边正好需要"
+      },
+      {
+        "intent": "answer_job_exchange_reason",
+        "entities": [
+          {
+            "start": 5,
+            "end": 13,
+            "entity": "new_job_location",
+            "value": "环目街道洛阳大厦"
+          },
+          {
+            "start": 15,
+            "end": 21,
+            "entity": "job_exchange_reason",
+            "value": "感觉发展需要"
+          }
+        ],
+        "text": "新的工作在环目街道洛阳大厦因为感觉发展需要"
+      },
+      {
+        "intent": "answer_job_exchange_reason",
+        "entities": [
+          {
+            "start": 3,
+            "end": 13,
+            "entity": "job_exchange_reason",
+            "value": "上一家公司的结构变动"
+          },
+          {
+            "start": 16,
+            "end": 20,
+            "entity": "new_job_location",
+            "value": "恒源制业"
+          }
+        ],
+        "text": "因为我上一家公司的结构变动我换到恒源制业工作"
+      },
+      {
+        "intent": "answer_job_exchange_reason",
+        "entities": [
+          {
+            "start": 2,
+            "end": 11,
+            "entity": "job_exchange_reason",
+            "value": "多路蓝那边没有补贴"
+          },
+          {
+            "start": 14,
+            "end": 17,
+            "entity": "new_job_location",
+            "value": "马赫监"
+          }
+        ],
+        "text": "因为多路蓝那边没有补贴所以到马赫监这边感觉这边更好一点"
+      },
+      {
+        "intent": "answer_job_exchange_reason",
+        "entities": [
+          {
+            "start": 7,
+            "end": 20,
+            "entity": "new_job_location",
+            "value": "赛拉按热酒店的454层B区"
+          },
+          {
+            "start": 27,
+            "end": 43,
+            "entity": "job_exchange_reason",
+            "value": "琪脉得的业务在全市的比例要大一些"
+          }
+        ],
+        "text": "额我的新公司在赛拉按热酒店的454层B区我换过去是因为琪脉得的业务在全市的比例要大一些嘛所以过去那边更好一点"
+      },
+      {
+        "intent": "answer_job_exchange_reason",
+        "entities": [
+          {
+            "start": 4,
+            "end": 10,
+            "entity": "job_exchange_reason",
+            "value": "肯定要好一些"
+          },
+          {
+            "start": 0,
+            "end": 4,
+            "entity": "new_job_location",
+            "value": "网安保险"
+          }
+        ],
+        "text": "网安保险肯定要好一些嘛所以换到那边我觉得还不错"
+      },
+      {
+        "intent": "answer_job_exchange_reason",
+        "entities": [
+          {
+            "start": 5,
+            "end": 12,
+            "entity": "job_exchange_reason",
+            "value": "脱离了职业规划"
+          },
+          {
+            "start": 25,
+            "end": 35,
+            "entity": "new_job_location",
+            "value": "创业大厦B栋1856"
+          }
+        ],
+        "text": "目前的工作脱离了职业规划所以换到乐家家工作新公司在创业大厦B栋1856"
+      },
+      {
+        "intent": "answer_job_exchange_reason",
+        "entities": [
+          {
+            "start": 4,
+            "end": 14,
+            "entity": "new_job_location",
+            "value": "永安职业技术保障学院"
+          },
+          {
+            "start": 16,
+            "end": 24,
+            "entity": "job_exchange_reason",
+            "value": "不喜欢以前的公司"
+          }
+        ],
+        "text": "新公司在永安职业技术保障学院因为不喜欢以前的公司"
+      },
+      {
+        "intent": "answer_job_exchange_reason",
+        "entities": [
+          {
+            "start": 7,
+            "end": 19,
+            "entity": "new_job_location",
+            "value": "芭芭拉小学对面的博客基寓"
+          },
+          {
+            "start": 25,
+            "end": 36,
+            "entity": "job_exchange_reason",
+            "value": "前面的公司缺少工作激情"
+          }
+        ],
+        "text": "新公司的位置是芭芭拉小学对面的博客基寓换工作是因为前面的公司缺少工作激情"
+      },
+      {
+        "intent": "answer_job_exchange_reason",
+        "entities": [
+          {
+            "start": 5,
+            "end": 11,
+            "entity": "new_job_location",
+            "value": "区第一幼儿园"
+          },
+          {
+            "start": 13,
+            "end": 20,
+            "entity": "job_exchange_reason",
+            "value": "来自社会的压力"
+          }
+        ],
+        "text": "工作变动到区第一幼儿园因为来自社会的压力所以换的"
+      },
+      {
+        "intent": "answer_job_exchange_reason",
+        "entities": [
+          {
+            "start": 5,
+            "end": 12,
+            "entity": "new_job_location",
+            "value": "华尔街322栋"
+          },
+          {
+            "start": 15,
+            "end": 30,
+            "entity": "job_exchange_reason",
+            "value": "以前的公司上班不被重要领导看好"
+          }
+        ],
+        "text": "工作变动到华尔街322栋因为在以前的公司上班不被重要领导看好"
+      },
+      {
+        "intent": "answer_job_exchange_reason",
+        "entities": [
+          {
+            "start": 7,
+            "end": 23,
+            "entity": "new_job_location",
+            "value": "胡远南路的沃尔广场对面的华庭大厦"
+          },
+          {
+            "start": 25,
+            "end": 43,
+            "entity": "job_exchange_reason",
+            "value": "亲情及家庭以前确实工作的地方离家很远"
+          }
+        ],
+        "text": "新的工作变动到胡远南路的沃尔广场对面的华庭大厦因为亲情及家庭以前确实工作的地方离家很远"
+      },
+      {
+        "intent": "answer_job_exchange_reason",
+        "entities": [
+          {
+            "start": 5,
+            "end": 11,
+            "entity": "new_job_location",
+            "value": "肯得里尔酒吧"
+          },
+          {
+            "start": 13,
+            "end": 21,
+            "entity": "job_exchange_reason",
+            "value": "是那边过来挖的我"
+          }
+        ],
+        "text": "工作变动到肯得里尔酒吧因为是那边过来挖的我"
+      },
+      {
+        "intent": "deny_health",
+        "entities": [
+          {
+            "start": 4,
+            "end": 14,
+            "entity": "unhealth_status",
+            "value": "胸口还是会偶尔疼一下"
+          }
+        ],
+        "text": "最近感觉胸口还是会偶尔疼一下不太好"
+      },
+      {
+        "intent": "deny_health",
+        "entities": [
+          {
+            "start": 5,
+            "end": 22,
+            "entity": "unhealth_status",
+            "value": "打篮球晒过之后脖子上有白色的小斑块"
+          }
+        ],
+        "text": "不太好最近打篮球晒过之后脖子上有白色的小斑块"
+      },
+      {
+        "intent": "deny_health",
+        "entities": [
+          {
+            "start": 14,
+            "end": 22,
+            "entity": "unhealth_status",
+            "value": "尿蛋白偏高是阳性"
+          }
+        ],
+        "text": "前段时间去做了体检体检报告说尿蛋白偏高是阳性"
+      },
+      {
+        "intent": "deny_health",
+        "entities": [
+          {
+            "start": 7,
+            "end": 18,
+            "entity": "unhealth_status",
+            "value": "左边肚子涨还有后面也涨"
+          }
+        ],
+        "text": "状况不太好感觉左边肚子涨还有后面也涨"
+      },
+      {
+        "intent": "deny_health",
+        "entities": [
+          {
+            "start": 6,
+            "end": 16,
+            "entity": "unhealth_status",
+            "value": "腹泻已经有一段时间了"
+          }
+        ],
+        "text": "其他都好就是腹泻已经有一段时间了"
+      },
+      {
+        "intent": "deny_health",
+        "entities": [
+          {
+            "start": 3,
+            "end": 14,
+            "entity": "unhealth_status",
+            "value": "怀孕45天肚子有点大了"
+          }
+        ],
+        "text": "我现在怀孕45天肚子有点大了"
+      },
+      {
+        "intent": "deny_health",
+        "entities": [
+          {
+            "start": 7,
+            "end": 21,
+            "entity": "unhealth_status",
+            "value": "总是想吐恶心感觉是胃出毛病了"
+          }
+        ],
+        "text": "不太健康我最近总是想吐恶心感觉是胃出毛病了"
+      },
+      {
+        "intent": "deny_health",
+        "entities": [
+          {
+            "start": 2,
+            "end": 26,
+            "entity": "unhealth_status",
+            "value": "脚后跟骨裂不是太大但现在都一年多了走路还是有点疼"
+          }
+        ],
+        "text": "我的脚后跟骨裂不是太大但现在都一年多了走路还是有点疼"
+      },
+      {
+        "intent": "deny_health",
+        "entities": [
+          {
+            "start": 4,
+            "end": 19,
+            "entity": "unhealth_status",
+            "value": "总是尿完后还有尿但是就是尿不出"
+          }
+        ],
+        "text": "最近感觉总是尿完后还有尿但是就是尿不出"
+      },
+      {
+        "intent": "deny_health",
+        "entities": [
+          {
+            "start": 1,
+            "end": 11,
+            "entity": "unhealth_status",
+            "value": "胸口心脏处时常有痛感"
+          }
+        ],
+        "text": "我胸口心脏处时常有痛感"
+      },
+      {
+        "intent": "deny_health",
+        "entities": [
+          {
+            "start": 7,
+            "end": 23,
+            "entity": "unhealth_status",
+            "value": "腰椎膨出腰椎退行性改变腰椎管狭窄"
+          }
+        ],
+        "text": "医生给我诊断有腰椎膨出腰椎退行性改变腰椎管狭窄"
+      },
+      {
+        "intent": "confirm_leave_approval_status",
+        "text": "申请了外出批准了"
+      },
+      {
+        "intent": "confirm_leave_approval_status",
+        "text": "申请外出给我批准了"
+      },
+      {
+        "intent": "confirm_leave_approval_status",
+        "text": "批准了前面申请过了"
+      },
+      {
+        "intent": "confirm_leave_approval_status",
+        "text": "对我已经申请了而且批准了"
+      },
+      {
+        "intent": "confirm_leave_approval_status",
+        "text": "前段时间刚给我批准了"
+      },
+      {
+        "intent": "confirm_leave_approval_status",
+        "text": "对的我在网上申请的给批了"
+      },
+      {
+        "intent": "confirm_leave_approval_status",
+        "text": "就在前段时间给批准了"
+      },
+      {
+        "intent": "confirm_leave_approval_status",
+        "text": "前段时间申请然后批准了"
+      },
+      {
+        "intent": "confirm_leave_approval_status",
+        "text": "批了批了"
+      },
+      {
+        "intent": "confirm_leave_approval_status",
+        "text": "已近批准过了"
+      },
+      {
+        "intent": "deny_leave_approval_status",
+        "text": "没有前段时间比较忙就没有申请"
+      },
+      {
+        "intent": "deny_leave_approval_status",
+        "text": "我前段时间申请了但是没有批准"
+      },
+      {
+        "intent": "deny_leave_approval_status",
+        "text": "现在还没批准呢"
+      },
+      {
+        "intent": "deny_leave_approval_status",
+        "text": "以为不用申请所以就没有申请"
+      },
+      {
+        "intent": "deny_leave_approval_status",
+        "text": "没有需要申请吗"
+      },
+      {
+        "intent": "deny_leave_approval_status",
+        "text": "我不知道啊所以没有呢"
+      },
+      {
+        "intent": "deny_leave_approval_status",
+        "text": "现在还没有申请呢因为比较忙"
+      },
+      {
+        "intent": "deny_leave_approval_status",
+        "text": "我申请了但是还没有获批"
+      },
+      {
+        "intent": "without_medical_treatment_reason",
+        "entities": [
+          {
+            "start": 2,
+            "end": 5,
+            "entity": "without_medical_reason",
+            "value": "比较忙"
+          }
+        ],
+        "text": "因为比较忙所以没有去看病"
+      },
+      {
+        "intent": "without_medical_treatment",
+        "text": "我现在感觉病情比较严重了准备过几天就去看医生"
+      },
+      {
+        "intent": "without_medical_treatment",
+        "text": "现在感觉不是很舒服还没有去就医"
+      },
+      {
+        "intent": "without_medical_treatment",
+        "text": "我现在还不想去就医感觉病情不是很严重"
+      },
+      {
+        "intent": "without_medical_treatment",
+        "text": "没有去呢因为还好感觉"
+      },
+      {
+        "intent": "without_medical_treatment",
+        "text": "现在还不严重所以没有第一时间去看医生"
+      },
+      {
+        "intent": "confirm_in_city",
+        "text": "当前在长沙市"
+      },
+      {
+        "intent": "inform_location",
+        "entities": [
+          {
+            "start": 4,
+            "end": 25,
+            "entity": "location",
+            "value": "湖南省长沙市天心区芙蓉南路神龙大酒店88楼"
+          }
+        ],
+        "text": "我现在在湖南省长沙市天心区芙蓉南路神龙大酒店88楼"
+      },
+      {
+        "intent": "confirm_job_exchange",
+        "text": "工作变动了"
+      },
+      {
+        "intent": "answer_job_exchange_reason",
+        "entities": [
+          {
+            "start": 5,
+            "end": 10,
+            "entity": "new_job_location",
+            "value": "花花大酒店"
+          },
+          {
+            "start": 12,
+            "end": 22,
+            "entity": "job_exchange_reason",
+            "value": "那边比较娱乐性强一点"
+          }
+        ],
+        "text": "工作变动到花花大酒店因为那边比较娱乐性强一点"
+      },
+      {
+        "intent": "confirm_job_situation",
+        "entities": [
+          {
+            "start": 2,
+            "end": 10,
+            "entity": "job_situation",
+            "value": "比较好福利比较多"
+          }
+        ],
+        "text": "工作比较好福利比较多"
+      },
+      {
+        "intent": "deny_health",
+        "entities": [
+          {
+            "start": 3,
+            "end": 5,
+            "entity": "unhealth_status",
+            "value": "胃疼"
+          }
+        ],
+        "text": "我感觉胃疼"
+      },
+      {
+        "intent": "without_medical_treatment",
+        "entities": [
+          {
+            "start": 3,
+            "end": 8,
+            "entity": "unhealth_status",
+            "value": "胃疼好些了"
+          }
+        ],
+        "text": "我现在胃疼好些了，但是没有去看医生"
+      },
+      {
+        "intent": "without_medical_treatment_reason",
+        "entities": [
+          {
+            "start": 5,
+            "end": 18,
+            "entity": "without_medical_reason",
+            "value": "工作太忙了啊哪有时间去看病"
+          }
+        ],
+        "text": "当然是因为工作太忙了啊哪有时间去看病"
+      },
+      {
+        "intent": "greet",
+        "text": "你好啊"
+      },
+      {
+        "intent": "inform_location",
+        "entities": [
+          {
+            "start": 4,
+            "end": 21,
+            "entity": "location",
+            "value": "湖北省襄樊市51中对面的李记牛肉馆"
+          }
+        ],
+        "text": "我现在在湖北省襄樊市51中对面的李记牛肉馆"
+      },
+      {
+        "intent": "confirm_job_situation",
+        "entities": [
+          {
+            "start": 2,
+            "end": 4,
+            "entity": "job_situation",
+            "value": "还行"
+          }
+        ],
+        "text": "工作还行"
+      },
+      {
+        "intent": "deny",
+        "text": "我现在没时间"
+      },
+      {
+        "intent": "deny",
+        "text": "我现在忙"
+      },
+      {
+        "intent": "greet",
+        "entities": [
+          {
+            "start": 4,
+            "end": 6,
+            "entity": "name",
+            "value": "李强"
+          }
+        ],
+        "text": "喂，我是李强"
+      },
+      {
+        "intent": "confirm",
+        "text": "你说吧"
+      },
+      {
+        "intent": "confirm",
+        "text": "我在怎么了"
+      },
+      {
+        "intent": "inform_location",
+        "entities": [
+          {
+            "start": 2,
+            "end": 11,
+            "entity": "location",
+            "value": "泰山西边的阿里啦谷"
+          }
+        ],
+        "text": "我在泰山西边的阿里啦谷"
+      },
+      {
+        "intent": "confirm_job_exchange",
+        "text": "我换工作了"
+      },
+      {
+        "intent": "answer_job_exchange_reason",
+        "entities": [
+          {
+            "start": 2,
+            "end": 12,
+            "entity": "job_exchange_reason",
+            "value": "以前的公司负债太多了"
+          },
+          {
+            "start": 22,
+            "end": 26,
+            "entity": "new_job_location",
+            "value": "达钛企业"
+          }
+        ],
+        "text": "因为以前的公司负债太多了现在到了新的公司名叫达钛企业"
+      },
+      {
+        "intent": "confirm_job_situation",
+        "entities": [
+          {
+            "start": 4,
+            "end": 9,
+            "entity": "job_situation",
+            "value": "正常上下班"
+          }
+        ],
+        "text": "现在就是正常上下班"
+      },
+      {
+        "intent": "confirm",
+        "text": "还可以"
+      },
+      {
+        "intent": "confirm_job_exchange",
+        "text": "最近换了一份工作"
+      },
+      {
+        "intent": "confirm_job_exchange",
+        "text": "对的最近我换工作了"
+      },
+      {
+        "intent": "confirm_job_exchange",
+        "text": "嗯是的我最近换工作了"
+      },
+      {
+        "intent": "confirm_job_exchange",
+        "text": "是的，我换了一份工作"
+      },
+      {
+        "intent": "confirm_job_exchange",
+        "text": "有变动我最近换到阿迪塔公司了"
+      },
+      {
+        "intent": "confirm_job_exchange",
+        "text": "没错工作换了"
+      },
+      {
+        "intent": "confirm_job_exchange",
+        "text": "我最近刚辞职了，换到另一家工作"
+      },
+      {
+        "intent": "confirm_job_exchange",
+        "text": "我最近换了两次工作"
+      },
+      {
+        "intent": "confirm_job_exchange",
+        "text": "我的工作变动到青山区那边了"
+      },
+      {
+        "intent": "confirm_job_exchange",
+        "text": "是的变动了，换到另外一个企业了"
+      },
+      {
+        "intent": "confirm_job_exchange",
+        "text": "有变动，总部调我到华西区去当销售经理了"
+      },
+      {
+        "intent": "confirm_job_exchange",
+        "text": "是的变动到了新的单位"
+      },
+      {
+        "intent": "confirm_job_exchange",
+        "text": "我到清华子广上班了"
+      },
+      {
+        "intent": "confirm_job_exchange",
+        "text": "现在刚换了一家公司"
+      },
+      {
+        "intent": "confirm_job_exchange",
+        "text": "上个礼拜我换了份工作"
+      },
+      {
+        "intent": "confirm_job_exchange",
+        "text": "今年上半年我换了一家公司"
+      },
+      {
+        "intent": "confirm_job_exchange",
+        "text": "对我这个月12号换的工作"
+      },
+      {
+        "intent": "no_job_exchange",
+        "text": "工作方面没有变动"
+      },
+      {
+        "intent": "no_job_exchange",
+        "text": "工作上没有变动"
+      },
+      {
+        "intent": "no_job_exchange",
+        "text": "没有变动还是原来那份工作"
+      },
+      {
+        "intent": "no_job_exchange",
+        "text": "工作没变"
+      },
+      {
+        "intent": "no_job_exchange",
+        "text": "没有变动挺好的"
+      },
+      {
+        "intent": "no_job_exchange",
+        "text": "工作最近是没有变动"
+      },
+      {
+        "intent": "no_job_exchange",
+        "text": "没有的没有变动"
+      },
+      {
+        "intent": "no_job_exchange",
+        "text": "最近的工作还好没变动"
+      },
+      {
+        "intent": "no_job_exchange",
+        "text": "最近无变动"
+      },
+      {
+        "intent": "no_job_exchange",
+        "text": "工作最近无变动"
+      },
+      {
+        "intent": "no_job_exchange",
+        "text": "没有没有变动"
+      },
+      {
+        "intent": "inform_location",
+        "entities": [
+          {
+            "start": 0,
+            "end": 17,
+            "entity": "location",
+            "value": "山东省东营市利津县S310景诚物流"
+          }
+        ],
+        "text": "山东省东营市利津县S310景诚物流"
+      },
+      {
+        "intent": "confirm_job_exchange",
+        "text": "换了份工作"
+      },
+      {
+        "intent": "answer_job_exchange_reason",
+        "entities": [
+          {
+            "start": 5,
+            "end": 13,
+            "entity": "new_job_location",
+            "value": "金典设计有限公司"
+          },
+          {
+            "start": 16,
+            "end": 22,
+            "entity": "job_exchange_reason",
+            "value": "那边离家近些"
+          }
+        ],
+        "text": "工作换到了金典设计有限公司，因为那边离家近些"
+      },
+      {
+        "intent": "confirm_job_situation",
+        "entities": [
+          {
+            "start": 4,
+            "end": 6,
+            "entity": "job_situation",
+            "value": "还行"
+          }
+        ],
+        "text": "近期工作还行"
+      },
+      {
+        "intent": "deny_health",
+        "entities": [
+          {
+            "start": 3,
+            "end": 8,
+            "entity": "unhealth_status",
+            "value": "患了阑尾炎"
+          }
+        ],
+        "text": "最近我患了阑尾炎"
+      },
+      {
+        "intent": "with_medical_treatment",
+        "entities": [
+          {
+            "start": 5,
+            "end": 31,
+            "entity": "unhealth_status",
+            "value": "以前就觉得肚子很疼去医院买了些药回来感觉还不错好多了"
+          }
+        ],
+        "text": "现在好些了以前就觉得肚子很疼去医院买了些药回来感觉还不错好多了"
+      },
+      {
+        "intent": "confirm",
+        "text": "方便的"
+      },
+      {
+        "intent": "confirm",
+        "text": "当前在"
+      },
+      {
+        "intent": "inform_location",
+        "entities": [
+          {
+            "start": 0,
+            "end": 12,
+            "entity": "location",
+            "value": "长沙市开福区福元路23号"
+          }
+        ],
+        "text": "长沙市开福区福元路23号"
+      },
+      {
+        "intent": "confirm_job_exchange",
+        "text": "工作有变动"
+      },
+      {
+        "intent": "inform_location",
+        "entities": [
+          {
+            "start": 4,
+            "end": 18,
+            "entity": "location",
+            "value": "长沙市雨花区木加马坡的45号"
+          }
+        ],
+        "text": "我现在在长沙市雨花区木加马坡的45号"
+      },
+      {
+        "intent": "answer_job_exchange_reason",
+        "entities": [
+          {
+            "start": 6,
+            "end": 16,
+            "entity": "new_job_location",
+            "value": "马兰山马兰坡华茂大厦"
+          },
+          {
+            "start": 22,
+            "end": 28,
+            "entity": "job_exchange_reason",
+            "value": "不想离家太远"
+          }
+        ],
+        "text": "现在工作换到马兰山马兰坡华茂大厦换工作是因为不想离家太远"
+      },
+      {
+        "intent": "deny",
+        "text": "不好"
+      },
+      {
+        "intent": "with_medical_treatment",
+        "entities": [
+          {
+            "start": 2,
+            "end": 10,
+            "entity": "unhealth_status",
+            "value": "脸上的皮炎还没消"
+          }
+        ],
+        "text": "现在脸上的皮炎还没消，前段时间去医院拿了点药"
+      },
+      {
+        "intent": "greet",
+        "text": "喂你好"
+      },
+      {
+        "intent": "confirm",
+        "text": "是的方便"
+      },
+      {
+        "intent": "deny_leave_approval_status",
+        "text": "我申请了外出但没获得批准"
+      },
+      {
+        "intent": "inform_location",
+        "entities": [
+          {
+            "start": 3,
+            "end": 13,
+            "entity": "location",
+            "value": "湖南省长沙市世界之窗"
+          }
+        ],
+        "text": "当前在湖南省长沙市世界之窗"
+      },
+      {
+        "intent": "answer_job_exchange_reason",
+        "entities": [
+          {
+            "start": 2,
+            "end": 9,
+            "entity": "new_job_location",
+            "value": "工作在五一广场"
+          },
+          {
+            "start": 16,
+            "end": 28,
+            "entity": "job_exchange_reason",
+            "value": "前面的工作太紧张压力太大"
+          }
+        ],
+        "text": "现在工作在五一广场，换工作是因为前面的工作太紧张压力太大"
+      },
+      {
+        "intent": "confirm_job_situation",
+        "entities": [
+          {
+            "start": 2,
+            "end": 7,
+            "entity": "job_situation",
+            "value": "正常上下班"
+          }
+        ],
+        "text": "近期正常上下班"
+      },
+      {
+        "intent": "confirm",
+        "text": "方便请讲"
+      },
+      {
+        "intent": "inform_location",
+        "entities": [
+          {
+            "start": 4,
+            "end": 19,
+            "entity": "location",
+            "value": "湖南省长沙市开福区福元路18号"
+          }
+        ],
+        "text": "我现在在湖南省长沙市开福区福元路18号"
+      },
+      {
+        "intent": "confirm_job_situation",
+        "entities": [
+          {
+            "start": 0,
+            "end": 4,
+            "entity": "job_situation",
+            "value": "一切顺利",
+            "extractor": "MitieEntityExtractor"
+          }
+        ],
+        "text": "一切顺利"
+      },
+      {
+        "intent": "confirm",
+        "text": "好"
+      },
+      {
+        "intent": "inform_location",
+        "entities": [
+          {
+            "start": 2,
+            "end": 20,
+            "entity": "location",
+            "value": "椰林东路与326国道交叉口西150米"
+          }
+        ],
+        "text": "我在椰林东路与326国道交叉口西150米"
+      },
+      {
+        "intent": "confirm",
+        "text": "有"
+      },
+      {
+        "intent": "answer_job_exchange_reason",
+        "entities": [
+          {
+            "start": 5,
+            "end": 10,
+            "entity": "new_job_location",
+            "value": "江北路那边"
+          },
+          {
+            "start": 12,
+            "end": 21,
+            "entity": "job_exchange_reason",
+            "value": "最近要回家带孩子了"
+          }
+        ],
+        "text": "工作变动到江北路那边因为最近要回家带孩子了"
+      },
+      {
+        "intent": "confirm_job_situation",
+        "entities": [
+          {
+            "start": 2,
+            "end": 6,
+            "entity": "job_situation",
+            "value": "还算顺利"
+          }
+        ],
+        "text": "工作还算顺利"
+      },
+      {
+        "intent": "confirm",
+        "text": "还行"
+      },
+      {
+        "intent": "confirm_in_city",
+        "text": "当前在长沙"
+      },
+      {
+        "intent": "inform_location",
+        "entities": [
+          {
+            "start": 0,
+            "end": 10,
+            "entity": "location",
+            "value": "兰州市西固区福利东路"
+          }
+        ],
+        "text": "兰州市西固区福利东路"
+      },
+      {
+        "intent": "no_job_exchange",
+        "text": "近期没变动"
+      },
+      {
+        "intent": "deny_health",
+        "text": "不太好"
+      },
+      {
+        "intent": "without_medical_treatment",
+        "entities": [
+          {
+            "start": 2,
+            "end": 9,
+            "entity": "unhealth_status",
+            "value": "每天都头疼发热"
+          }
+        ],
+        "text": "现在每天都头疼发热，想去医院但是没有去"
+      },
+      {
+        "intent": "without_medical_treatment_reason",
+        "entities": [
+          {
+            "start": 2,
+            "end": 12,
+            "entity": "without_medical_reason",
+            "value": "前段时间忙着照看孙女"
+          }
+        ],
+        "text": "因为前段时间忙着照看孙女所以没去医院"
+      },
+      {
+        "intent": "confirm",
+        "text": "我在"
+      },
+      {
+        "intent": "inform_location",
+        "entities": [
+          {
+            "start": 0,
+            "end": 10,
+            "entity": "location",
+            "value": "海南藏族自治州共和县"
+          }
+        ],
+        "text": "海南藏族自治州共和县"
+      },
+      {
+        "intent": "deny_health",
+        "text": "不怎么健康"
+      },
+      {
+        "intent": "deny_health",
+        "entities": [
+          {
+            "start": 2,
+            "end": 10,
+            "entity": "unhealth_status",
+            "value": "腿上个星期骨折了"
+          }
+        ],
+        "text": "我的腿上个星期骨折了"
+      },
+      {
+        "intent": "with_medical_treatment",
+        "entities": [
+          {
+            "start": 0,
+            "end": 13,
+            "entity": "unhealth_status",
+            "value": "上个星期腿骨折了现在在住院"
+          }
+        ],
+        "text": "上个星期腿骨折了现在在住院"
+      },
+      {
+        "intent": "confirm",
+        "text": "挺好的"
+      },
+      {
+        "intent": "inform_location",
+        "entities": [
+          {
+            "start": 0,
+            "end": 12,
+            "entity": "location",
+            "value": "湖北省武汉市新洲区汪集街"
+          }
+        ],
+        "text": "湖北省武汉市新洲区汪集街"
+      },
+      {
+        "intent": "with_medical_treatment",
+        "entities": [
+          {
+            "start": 1,
+            "end": 6,
+            "entity": "unhealth_status",
+            "value": "得了灰指甲"
+          }
+        ],
+        "text": "我得了灰指甲，上星期去看的医生"
+      },
+      {
+        "intent": "deny_health",
+        "text": "不太健康"
+      },
+      {
+        "intent": "confirm_job_situation",
+        "entities": [
+          {
+            "start": 2,
+            "end": 6,
+            "entity": "job_situation",
+            "value": "挺开心的"
+          }
+        ],
+        "text": "工作挺开心的"
+      },
+      {
+        "intent": "answer_job_exchange_reason",
+        "entities": [
+          {
+            "start": 4,
+            "end": 9,
+            "entity": "new_job_location",
+            "value": "家乐福超市"
+          },
+          {
+            "start": 11,
+            "end": 16,
+            "entity": "job_exchange_reason",
+            "value": "那边离家近"
+          }
+        ],
+        "text": "工作换到家乐福超市因为那边离家近"
+      },
+      {
+        "intent": "inform_location",
+        "entities": [
+          {
+            "start": 0,
+            "end": 12,
+            "entity": "location",
+            "value": "湖北省武汉市天心区茅台山"
+          }
+        ],
+        "text": "湖北省武汉市天心区茅台山"
+      },
+      {
+        "intent": "deny_health",
+        "entities": [
+          {
+            "start": 1,
+            "end": 6,
+            "entity": "unhealth_status",
+            "value": "得了灰指甲"
+          }
+        ],
+        "text": "我得了灰指甲"
+      },
+      {
+        "intent": "confirm_job_situation",
+        "entities": [
+          {
+            "start": 2,
+            "end": 6,
+            "entity": "job_situation",
+            "value": "挺顺利的"
+          }
+        ],
+        "text": "工作挺顺利的"
+      },
+      {
+        "intent": "inform_location",
+        "entities": [
+          {
+            "start": 0,
+            "end": 13,
+            "entity": "location",
+            "value": "湖北省武汉市天夏区乐古小区"
+          }
+        ],
+        "text": "湖北省武汉市天夏区乐古小区"
+      },
+      {
+        "intent": "without_medical_treatment",
+        "entities": [
+          {
+            "start": 5,
+            "end": 10,
+            "entity": "unhealth_status",
+            "value": "身体好些了"
+          }
+        ],
+        "text": "我现在感觉身体好些了，还没有去医院就诊"
+      },
+      {
+        "intent": "with_medical_treatment",
+        "entities": [
+          {
+            "start": 2,
+            "end": 7,
+            "entity": "unhealth_status",
+            "value": "消化好多了"
+          }
+        ],
+        "text": "现在消化好多了看医生也说没有大问题"
+      },
+      {
+        "intent": "without_medical_treatment",
+        "entities": [
+          {
+            "start": 2,
+            "end": 10,
+            "entity": "unhealth_status",
+            "value": "身体感觉挺健康的"
+          }
+        ],
+        "text": "现在身体感觉挺健康的没去医院就诊"
+      },
+      {
+        "intent": "with_medical_treatment",
+        "entities": [
+          {
+            "start": 2,
+            "end": 9,
+            "entity": "unhealth_status",
+            "value": "觉得牙齿还是疼"
+          }
+        ],
+        "text": "现在觉得牙齿还是疼医生说可以多吃流食让它慢慢生长"
+      },
+      {
+        "intent": "with_medical_treatment",
+        "entities": [
+          {
+            "start": 2,
+            "end": 6,
+            "entity": "unhealth_status",
+            "value": "还在住院"
+          }
+        ],
+        "text": "现在还在住院呢"
+      },
+      {
+        "intent": "with_medical_treatment",
+        "entities": [
+          {
+            "start": 2,
+            "end": 7,
+            "entity": "unhealth_status",
+            "value": "已经好多了"
+          }
+        ],
+        "text": "现在已经好多了，慢慢遵照医嘱跟着做康复训练"
+      },
+      {
+        "intent": "without_medical_treatment",
+        "entities": [
+          {
+            "start": 5,
+            "end": 13,
+            "entity": "unhealth_status",
+            "value": "感冒的症状减轻了"
+          }
+        ],
+        "text": "这几天感觉感冒的症状减轻了所以就没有往医院就诊"
+      },
+      {
+        "intent": "without_medical_treatment",
+        "entities": [
+          {
+            "start": 3,
+            "end": 9,
+            "entity": "unhealth_status",
+            "value": "腰椎还是很疼"
+          }
+        ],
+        "text": "这几天腰椎还是很疼但是没去看病"
+      },
+      {
+        "intent": "with_medical_treatment",
+        "text": "现在不觉得那么严重了去医院看医生说休养就行了"
+      },
+      {
+        "intent": "with_medical_treatment",
+        "entities": [
+          {
+            "start": 2,
+            "end": 13,
+            "entity": "unhealth_status",
+            "value": "已经可以慢慢下地走动了"
+          }
+        ],
+        "text": "现在已经可以慢慢下地走动了但是医生还是不推荐运动量太大"
+      },
+      {
+        "intent": "with_medical_treatment",
+        "entities": [
+          {
+            "start": 2,
+            "end": 7,
+            "entity": "unhealth_status",
+            "value": "已经退烧了"
+          }
+        ],
+        "text": "现在已经退烧了就诊的时候打了几针"
+      },
+      {
+        "intent": "with_medical_treatment",
+        "entities": [
+          {
+            "start": 4,
+            "end": 12,
+            "entity": "unhealth_status",
+            "value": "手臂没有那么酸了"
+          }
+        ],
+        "text": "现在感觉手臂没有那么酸了，医生说再休养休养就好了"
+      },
+      {
+        "intent": "with_medical_treatment",
+        "entities": [
+          {
+            "start": 2,
+            "end": 12,
+            "entity": "unhealth_status",
+            "value": "精神比前面几天好些了"
+          }
+        ],
+        "text": "我的精神比前面几天好些了，但是医生说还要继续休息一段时间"
+      },
+      {
+        "intent": "with_medical_treatment",
+        "entities": [
+          {
+            "start": 2,
+            "end": 13,
+            "entity": "unhealth_status",
+            "value": "就让伤口慢慢恢复就行了"
+          }
+        ],
+        "text": "现在就让伤口慢慢恢复就行了，门诊也说没啥大问题"
+      },
+      {
+        "intent": "with_medical_treatment",
+        "entities": [
+          {
+            "start": 2,
+            "end": 15,
+            "entity": "unhealth_status",
+            "value": "不会看到红疹了也不觉得痒了"
+          }
+        ],
+        "text": "现在不会看到红疹了也不觉得痒了，等一段时间就好了，医生也建议慢慢观察"
+      },
+      {
+        "intent": "with_medical_treatment",
+        "entities": [
+          {
+            "start": 2,
+            "end": 8,
+            "entity": "unhealth_status",
+            "value": "胃疼老是反复"
+          }
+        ],
+        "text": "我的胃疼老是反复但是没有办法，去看医生说坚持吃药没别的办法了"
+      },
+      {
+        "intent": "with_medical_treatment",
+        "entities": [
+          {
+            "start": 3,
+            "end": 24,
+            "entity": "unhealth_status",
+            "value": "我的肩膀还要一段时间恢复，现在比以前好多了"
+          }
+        ],
+        "text": "医生说我的肩膀还要一段时间恢复，现在比以前好多了"
+      },
+      {
+        "intent": "with_medical_treatment",
+        "entities": [
+          {
+            "start": 2,
+            "end": 11,
+            "entity": "unhealth_status",
+            "value": "肾结石还是感觉很疼"
+          }
+        ],
+        "text": "我的肾结石还是感觉很疼，医生建议我少抽烟喝酒"
+      },
+      {
+        "intent": "inform_location",
+        "entities": [
+          {
+            "start": 2,
+            "end": 12,
+            "entity": "location",
+            "value": "七界山名胜风景旅游区"
+          }
+        ],
+        "text": "我在七界山名胜风景旅游区"
+      },
+      {
+        "intent": "answer_job_exchange_reason",
+        "entities": [
+          {
+            "start": 4,
+            "end": 10,
+            "entity": "new_job_location",
+            "value": "芥子铺旅游局"
+          },
+          {
+            "start": 12,
+            "end": 18,
+            "entity": "job_exchange_reason",
+            "value": "那边调我过去"
+          }
+        ],
+        "text": "工作换到芥子铺旅游局因为那边调我过去"
+      },
+      {
+        "intent": "deny_health",
+        "entities": [
+          {
+            "start": 5,
+            "end": 10,
+            "entity": "unhealth_status",
+            "value": "老是想呕吐"
+          }
+        ],
+        "text": "我最近感觉老是想呕吐"
+      },
+      {
+        "intent": "without_medical_treatment",
+        "entities": [
+          {
+            "start": 2,
+            "end": 12,
+            "entity": "unhealth_status",
+            "value": "早晨起床还是感觉想吐"
+          }
+        ],
+        "text": "现在早晨起床还是感觉想吐不过还没有去看医生"
+      },
+      {
+        "intent": "without_medical_treatment_reason",
+        "entities": [
+          {
+            "start": 4,
+            "end": 9,
+            "entity": "without_medical_reason",
+            "value": "工作太忙了"
+          }
+        ],
+        "text": "因为现在工作太忙了所以没有时间去看病"
+      },
+      {
+        "intent": "without_medical_treatment",
+        "entities": [
+          {
+            "start": 3,
+            "end": 9,
+            "entity": "unhealth_status",
+            "value": "每天容易干呕"
+          }
+        ],
+        "text": "我现在每天容易干呕但是没有去看医生"
+      },
+      {
+        "intent": "without_medical_treatment",
+        "entities": [
+          {
+            "start": 3,
+            "end": 11,
+            "entity": "unhealth_status",
+            "value": "每天起床都想干呕"
+          }
+        ],
+        "text": "我现在每天起床都想干呕不过还没去看医生"
+      },
+      {
+        "intent": "deny_health",
+        "entities": [
+          {
+            "start": 3,
+            "end": 9,
+            "entity": "unhealth_status",
+            "value": "老是觉得恶心"
+          }
+        ],
+        "text": "我最近老是觉得恶心"
+      },
+      {
+        "intent": "answer_job_exchange_reason",
+        "entities": [
+          {
+            "start": 5,
+            "end": 11,
+            "entity": "new_job_location",
+            "value": "大熊山动物园"
+          },
+          {
+            "start": 13,
+            "end": 24,
+            "entity": "job_exchange_reason",
+            "value": "刚好那边需要一个管理员"
+          }
+        ],
+        "text": "工作换到了大熊山动物园因为刚好那边需要一个管理员"
+      },
+      {
+        "intent": "inform_location",
+        "entities": [
+          {
+            "start": 0,
+            "end": 12,
+            "entity": "location",
+            "value": "湖南省张家界景区坡子桥镇"
+          }
+        ],
+        "text": "湖南省张家界景区坡子桥镇"
+      },
+      {
+        "intent": "inform_location",
+        "entities": [
+          {
+            "start": 0,
+            "end": 9,
+            "entity": "location",
+            "value": "河南省江淮县龙潭镇"
+          }
+        ],
+        "text": "河南省江淮县龙潭镇"
+      },
+      {
+        "intent": "inform_location",
+        "entities": [
+          {
+            "start": 2,
+            "end": 14,
+            "entity": "location",
+            "value": "长沙市宁德县威海乡32号"
+          }
+        ],
+        "text": "我在长沙市宁德县威海乡32号"
+      },
+      {
+        "intent": "confirm",
+        "text": "我很好"
+      },
+      {
+        "intent": "confirm",
+        "text": "嗯请讲"
+      },
+      {
+        "intent": "inform_location",
+        "entities": [
+          {
+            "start": 2,
+            "end": 16,
+            "entity": "location",
+            "value": "广东市邵阳县杜家坡口恒月客栈"
+          }
+        ],
+        "text": "我在广东市邵阳县杜家坡口恒月客栈"
+      },
+      {
+        "intent": "answer_job_exchange_reason",
+        "entities": [
+          {
+            "start": 9,
+            "end": 18,
+            "entity": "job_exchange_reason",
+            "value": "我的老婆在这边工作"
+          },
+          {
+            "start": 3,
+            "end": 6,
+            "entity": "new_job_location",
+            "value": "广州市"
+          }
+        ],
+        "text": "我换到广州市了因为我的老婆在这边工作"
+      },
+      {
+        "intent": "confirm_not_in_city",
+        "text": "我在市外"
+      },
+      {
+        "intent": "confirm_leave_approval_status",
+        "text": "申请了获得批准"
+      },
+      {
+        "intent": "inform_location",
+        "entities": [
+          {
+            "start": 0,
+            "end": 29,
+            "entity": "location",
+            "value": "苏州市吴中区工业园区塘浦路与西华林街交叉口(东南200米)"
+          }
+        ],
+        "text": "苏州市吴中区工业园区塘浦路与西华林街交叉口(东南200米)"
+      },
+      {
+        "intent": "confirm_leave_approval_status",
+        "text": "申请获批了"
+      },
+      {
+        "intent": "answer_job_exchange_reason",
+        "entities": [
+          {
+            "start": 11,
+            "end": 18,
+            "entity": "job_exchange_reason",
+            "value": "上一份工作没了"
+          },
+          {
+            "start": 5,
+            "end": 9,
+            "entity": "new_job_location",
+            "value": "水墨江南"
+          }
+        ],
+        "text": "工作变动到水墨江南因为上一份工作没了"
+      },
+      {
+        "intent": "inform_location",
+        "entities": [
+          {
+            "start": 0,
+            "end": 12,
+            "entity": "location",
+            "value": "无锡市锡山区春鑫路50号"
+          }
+        ],
+        "text": "无锡市锡山区春鑫路50号"
+      },
+      {
+        "intent": "confirm_job_exchange",
+        "text": "变动了"
+      },
+      {
+        "intent": "answer_job_exchange_reason",
+        "entities": [
+          {
+            "start": 5,
+            "end": 10,
+            "entity": "new_job_location",
+            "value": "云林春雷苑"
+          },
+          {
+            "start": 12,
+            "end": 22,
+            "entity": "job_exchange_reason",
+            "value": "那边的酒店生意比较好"
+          }
+        ],
+        "text": "工作变动到云林春雷苑因为那边的酒店生意比较好"
+      },
+      {
+        "intent": "confirm_job_situation",
+        "entities": [
+          {
+            "start": 2,
+            "end": 6,
+            "entity": "job_situation",
+            "value": "都挺好的"
+          }
+        ],
+        "text": "工作都挺好的"
+      },
+      {
+        "intent": "deny_health",
+        "entities": [
+          {
+            "start": 3,
+            "end": 8,
+            "entity": "unhealth_status",
+            "value": "得了肩周炎"
+          }
+        ],
+        "text": "我最近得了肩周炎"
+      },
+      {
+        "intent": "without_medical_treatment",
+        "entities": [
+          {
+            "start": 2,
+            "end": 7,
+            "entity": "unhealth_status",
+            "value": "每天都很疼"
+          }
+        ],
+        "text": "现在每天都很疼但是没有去看过医生"
+      },
+      {
+        "intent": "without_medical_treatment_reason",
+        "entities": [
+          {
+            "start": 2,
+            "end": 9,
+            "entity": "without_medical_reason",
+            "value": "家里事情比较多"
+          }
+        ],
+        "text": "因为家里事情比较多"
+      },
+      {
+        "intent": "confirm",
+        "text": "可以你说"
+      },
+      {
+        "intent": "deny_leave_approval_status",
+        "text": "没有批准呢"
+      },
+      {
+        "intent": "inform_location",
+        "entities": [
+          {
+            "start": 0,
+            "end": 32,
+            "entity": "location",
+            "value": "上海市浦东新区祝桥镇南祝公路盐仓汽车站向南300米星火村125号"
+          }
+        ],
+        "text": "上海市浦东新区祝桥镇南祝公路盐仓汽车站向南300米星火村125号"
+      },
+      {
+        "intent": "no_job_exchange",
+        "text": "没有变"
+      },
+      {
+        "intent": "confirm_job_situation",
+        "entities": [
+          {
+            "start": 2,
+            "end": 6,
+            "entity": "job_situation",
+            "value": "非常顺利"
+          }
+        ],
+        "text": "近期非常顺利"
+      },
+      {
+        "intent": "confirm_health",
+        "text": "近期状况还算良好"
+      },
+      {
+        "intent": "confirm_not_in_city",
+        "text": "我不在市里"
+      },
+      {
+        "intent": "confirm_job_situation",
+        "entities": [
+          {
+            "start": 2,
+            "end": 6,
+            "entity": "job_situation",
+            "value": "非常顺利"
+          }
+        ],
+        "text": "情况非常顺利"
+      },
+      {
+        "intent": "confirm",
+        "text": "请讲"
+      },
+      {
+        "intent": "deny_leave_approval_status",
+        "text": "没有呢，没有申请"
+      },
+      {
+        "intent": "inform_location",
+        "entities": [
+          {
+            "start": 0,
+            "end": 18,
+            "entity": "location",
+            "value": "上海市浦东新区祝桥镇盐朝公路835号"
+          }
+        ],
+        "text": "上海市浦东新区祝桥镇盐朝公路835号"
+      },
+      {
+        "intent": "answer_job_exchange_reason",
+        "entities": [
+          {
+            "start": 5,
+            "end": 12,
+            "entity": "new_job_location",
+            "value": "浦东分局派出所"
+          },
+          {
+            "start": 14,
+            "end": 22,
+            "entity": "job_exchange_reason",
+            "value": "单位把我调过去的"
+          }
+        ],
+        "text": "工作变动到浦东分局派出所因为单位把我调过去的"
+      },
+      {
+        "intent": "deny_health",
+        "text": "我生病了"
+      },
+      {
+        "intent": "without_medical_treatment",
+        "entities": [
+          {
+            "start": 2,
+            "end": 9,
+            "entity": "unhealth_status",
+            "value": "感冒了在家休息"
+          }
+        ],
+        "text": "现在感冒了在家休息，但是没去看医生"
+      },
+      {
+        "intent": "without_medical_treatment_reason",
+        "entities": [
+          {
+            "start": 2,
+            "end": 5,
+            "entity": "without_medical_reason",
+            "value": "工作忙"
+          }
+        ],
+        "text": "因为工作忙"
+      },
+      {
+        "intent": "greet",
+        "entities": [
+          {
+            "start": 4,
+            "end": 6,
+            "entity": "name",
+            "value": "陈明"
+          }
+        ],
+        "text": "你好我是陈明"
+      },
+      {
+        "intent": "confirm",
+        "text": "有的"
+      },
+      {
+        "intent": "inform_location",
+        "entities": [
+          {
+            "start": 0,
+            "end": 20,
+            "entity": "location",
+            "value": "上海市浦东新区盐朝公路与红三中心路交叉口"
+          }
+        ],
+        "text": "上海市浦东新区盐朝公路与红三中心路交叉口"
+      },
+      {
+        "intent": "without_medical_treatment",
+        "text": "健康状况良好，没有去就诊"
+      },
+      {
+        "intent": "without_medical_treatment_reason",
+        "entities": [
+          {
+            "start": 2,
+            "end": 10,
+            "entity": "without_medical_reason",
+            "value": "家里的事情太多了"
+          }
+        ],
+        "text": "因为家里的事情太多了"
+      },
+      {
+        "intent": "inform_location",
+        "entities": [
+          {
+            "start": 0,
+            "end": 14,
+            "entity": "location",
+            "value": "遵义市红花岗区新舟镇迎宾大道"
+          }
+        ],
+        "text": "遵义市红花岗区新舟镇迎宾大道"
+      },
+      {
+        "intent": "confirm_job_situation",
+        "entities": [
+          {
+            "start": 2,
+            "end": 5,
+            "entity": "job_situation",
+            "value": "很开心",
+            "extractor": "MitieEntityExtractor"
+          }
+        ],
+        "text": "工作很开心"
+      },
+      {
+        "intent": "deny_health",
+        "entities": [
+          {
+            "start": 3,
+            "end": 6,
+            "entity": "unhealth_status",
+            "value": "牙齿疼"
+          }
+        ],
+        "text": "我最近牙齿疼"
+      },
+      {
+        "intent": "with_medical_treatment",
+        "entities": [
+          {
+            "start": 1,
+            "end": 6,
+            "entity": "unhealth_status",
+            "value": "刚拔的智齿"
+          }
+        ],
+        "text": "我刚拔的智齿，医生说好好休养就行"
+      },
+      {
+        "intent": "with_medical_treatment",
+        "entities": [
+          {
+            "start": 4,
+            "end": 9,
+            "entity": "unhealth_status",
+            "value": "牙齿好很多"
+          }
+        ],
+        "text": "最近感觉牙齿好很多，去看医生了"
+      },
+      {
+        "intent": "with_medical_treatment",
+        "entities": [
+          {
+            "start": 4,
+            "end": 9,
+            "entity": "unhealth_status",
+            "value": "牙齿好很多"
+          }
+        ],
+        "text": "现在感觉牙齿好很多，医生建议好好调养"
+      },
+      {
+        "intent": "with_medical_treatment",
+        "entities": [
+          {
+            "start": 2,
+            "end": 8,
+            "entity": "unhealth_status",
+            "value": "刚去拔的智齿"
+          }
+        ],
+        "text": "最近刚去拔的智齿，医生说休养就好"
+      },
+      {
+        "intent": "deny_health",
+        "entities": [
+          {
+            "start": 2,
+            "end": 5,
+            "entity": "unhealth_status",
+            "value": "牙齿疼"
+          }
+        ],
+        "text": "最近牙齿疼"
+      },
+      {
+        "intent": "confirm_job_situation",
+        "entities": [
+          {
+            "start": 4,
+            "end": 7,
+            "entity": "job_situation",
+            "value": "很开心"
+          }
+        ],
+        "text": "工作感觉很开心"
+      },
+      {
+        "intent": "inform_location",
+        "entities": [
+          {
+            "start": 0,
+            "end": 13,
+            "entity": "location",
+            "value": "湖南省长沙市长沙县黄兴大道"
+          }
+        ],
+        "text": "湖南省长沙市长沙县黄兴大道"
+      },
+      {
+        "intent": "no_job_exchange",
+        "text": "没变动"
+      },
+      {
+        "intent": "confirm_job_situation",
+        "entities": [
+          {
+            "start": 4,
+            "end": 6,
+            "entity": "job_situation",
+            "value": "顺利"
+          }
+        ],
+        "text": "近期工作顺利"
+      },
+      {
+        "intent": "inform_location",
+        "entities": [
+          {
+            "start": 0,
+            "end": 11,
+            "entity": "location",
+            "value": "长沙市芙蓉区农大路1号"
+          }
+        ],
+        "text": "长沙市芙蓉区农大路1号"
+      },
+      {
+        "intent": "answer_job_exchange_reason",
+        "entities": [
+          {
+            "start": 5,
+            "end": 9,
+            "entity": "new_job_location",
+            "value": "东湖小区"
+          },
+          {
+            "start": 11,
+            "end": 16,
+            "entity": "job_exchange_reason",
+            "value": "那边交通好"
+          }
+        ],
+        "text": "工作变动到东湖小区因为那边交通好"
+      },
+      {
+        "intent": "deny_health",
+        "entities": [
+          {
+            "start": 4,
+            "end": 12,
+            "entity": "unhealth_status",
+            "value": "肺结核正在住院中"
+          }
+        ],
+        "text": "最近得了肺结核正在住院中"
+      },
+      {
+        "intent": "with_medical_treatment",
+        "entities": [
+          {
+            "start": 0,
+            "end": 9,
+            "entity": "unhealth_status",
+            "value": "目前正在住院观察中"
+          }
+        ],
+        "text": "目前正在住院观察中，估计还需要住一段时间"
+      },
+      {
+        "intent": "confirm_not_in_city",
+        "text": "我不在市内"
+      },
+      {
+        "intent": "deny_leave_approval_status",
+        "text": "我申请了外出，但是没有获得批准"
+      },
+      {
+        "intent": "inform_location",
+        "entities": [
+          {
+            "start": 3,
+            "end": 11,
+            "entity": "location",
+            "value": "天心区书院路9号"
+          }
+        ],
+        "text": "当前在天心区书院路9号"
+      },
+      {
+        "intent": "confirm_job_situation",
+        "entities": [
+          {
+            "start": 2,
+            "end": 9,
+            "entity": "job_situation",
+            "value": "挺好的一切顺利"
+          }
+        ],
+        "text": "工作挺好的一切顺利"
+      },
+      {
+        "intent": "deny_health",
+        "text": "我最近怀孕了"
+      },
+      {
+        "intent": "with_medical_treatment",
+        "entities": [
+          {
+            "start": 2,
+            "end": 8,
+            "entity": "unhealth_status",
+            "value": "健康状况良好"
+          }
+        ],
+        "text": "当前健康状况良好，一切顺利，医生建议在家休养就好"
+      },
+      {
+        "intent": "greet",
+        "text": "你是哪位"
+      },
+      {
+        "intent": "confirm",
+        "text": "可以，你说"
+      },
+      {
+        "intent": "confirm_in_city",
+        "text": "当前在长沙市内"
+      },
+      {
+        "intent": "inform_location",
+        "entities": [
+          {
+            "start": 4,
+            "end": 23,
+            "entity": "location",
+            "value": "长沙市岳麓区岳麓街道后湖村杜家塘15号"
+          }
+        ],
+        "text": "我现在在长沙市岳麓区岳麓街道后湖村杜家塘15号"
+      },
+      {
+        "intent": "answer_job_exchange_reason",
+        "entities": [
+          {
+            "start": 5,
+            "end": 13,
+            "entity": "new_job_location",
+            "value": "后湖国际艺术中心"
+          },
+          {
+            "start": 15,
+            "end": 21,
+            "entity": "job_exchange_reason",
+            "value": "那边环境更好"
+          }
+        ],
+        "text": "工作变动到后湖国际艺术中心因为那边环境更好"
+      },
+      {
+        "intent": "confirm_job_situation",
+        "entities": [
+          {
+            "start": 4,
+            "end": 7,
+            "entity": "job_situation",
+            "value": "很顺利"
+          }
+        ],
+        "text": "近期工作很顺利"
+      },
+      {
+        "intent": "confirm_health",
+        "text": "健康状况很好"
+      },
+      {
+        "intent": "confirm_not_in_city",
+        "text": "我不在怎么了"
+      },
+      {
+        "intent": "deny_leave_approval_status",
+        "text": "没办呢"
+      },
+      {
+        "intent": "inform_location",
+        "entities": [
+          {
+            "start": 0,
+            "end": 15,
+            "entity": "location",
+            "value": "长沙市天心区青山路鑫远湘府逸园"
+          }
+        ],
+        "text": "长沙市天心区青山路鑫远湘府逸园"
+      },
+      {
+        "intent": "no_job_exchange",
+        "text": "没变动啊"
+      },
+      {
+        "intent": "confirm_job_situation",
+        "entities": [
+          {
+            "start": 0,
+            "end": 2,
+            "entity": "job_situation",
+            "value": "还行"
+          }
+        ],
+        "text": "还行吧"
+      },
+      {
+        "intent": "confirm_health",
+        "text": "健康状况还行"
+      },
+      {
+        "intent": "confirm_not_in_city",
+        "text": "现在不在市里"
+      },
+      {
+        "intent": "confirm_not_in_city",
+        "text": "我现在没在市内"
+      },
+      {
+        "intent": "confirm_not_in_city",
+        "text": "没在市区里呢"
+      },
+      {
+        "intent": "confirm_not_in_city",
+        "text": "没在市区"
+      },
+      {
+        "intent": "confirm_not_in_city",
+        "text": "我不在市区呢现在"
+      },
+      {
+        "intent": "confirm_not_in_city",
+        "text": "现在不在市区"
+      },
+      {
+        "intent": "confirm_not_in_city",
+        "text": "我现在没在市区"
+      },
+      {
+        "intent": "confirm_not_in_city",
+        "text": "我现在还没在市区呢"
+      },
+      {
+        "intent": "confirm_not_in_city",
+        "text": "现在没在市区"
+      },
+      {
+        "intent": "confirm_not_in_city",
+        "text": "我现在不在市里面"
+      },
+      {
+        "intent": "confirm_not_in_city",
+        "text": "现在我不在市区"
+      },
+      {
+        "intent": "confirm_not_in_city",
+        "text": "现在还没在市区"
+      },
+      {
+        "intent": "with_medical_treatment",
+        "text": "我前几天看医生了开了点药"
+      },
+      {
+        "intent": "with_medical_treatment",
+        "text": "我去门诊了"
+      },
+      {
+        "intent": "with_medical_treatment",
+        "text": "前几天去诊所看了"
+      },
+      {
+        "intent": "with_medical_treatment",
+        "text": "去医院看过了没事"
+      },
+      {
+        "intent": "without_medical_treatment_reason",
+        "entities": [
+          {
+            "start": 6,
+            "end": 14,
+            "entity": "without_medical_reason",
+            "value": "最近一直都在加班"
+          }
+        ],
+        "text": "没看医生因为最近一直都在加班"
+      },
+      {
+        "intent": "without_medical_treatment_reason",
+        "entities": [
+          {
+            "start": 0,
+            "end": 7,
+            "entity": "without_medical_reason",
+            "value": "最近太多事情了"
+          }
+        ],
+        "text": "最近太多事情了哪有时间看病"
+      },
+      {
+        "intent": "without_medical_treatment_reason",
+        "entities": [
+          {
+            "start": 0,
+            "end": 3,
+            "entity": "without_medical_reason",
+            "value": "比较忙"
+          }
+        ],
+        "text": "比较忙所以没多少时间去医院看病"
+      },
+      {
+        "intent": "without_medical_treatment_reason",
+        "entities": [
+          {
+            "start": 2,
+            "end": 6,
+            "entity": "without_medical_reason",
+            "value": "家里太穷"
+          }
+        ],
+        "text": "因为家里太穷所以没法看病"
+      },
+      {
+        "intent": "without_medical_treatment_reason",
+        "entities": [
+          {
+            "start": 0,
+            "end": 10,
+            "entity": "without_medical_reason",
+            "value": "这段时间忙着照顾孩子"
+          }
+        ],
+        "text": "这段时间忙着照顾孩子所以没时间去看一下"
+      },
+      {
+        "intent": "without_medical_treatment_reason",
+        "entities": [
+          {
+            "start": 2,
+            "end": 10,
+            "entity": "without_medical_reason",
+            "value": "医院离这边太远了"
+          }
+        ],
+        "text": "因为医院离这边太远了"
+      },
+      {
+        "intent": "without_medical_treatment_reason",
+        "entities": [
+          {
+            "start": 2,
+            "end": 16,
+            "entity": "without_medical_reason",
+            "value": "我这个病医疗费用太贵负担不起"
+          }
+        ],
+        "text": "因为我这个病医疗费用太贵负担不起"
+      },
+      {
+        "intent": "without_medical_treatment_reason",
+        "entities": [
+          {
+            "start": 2,
+            "end": 15,
+            "entity": "without_medical_reason",
+            "value": "脑肿瘤这种病必须去大医院看"
+          }
+        ],
+        "text": "因为脑肿瘤这种病必须去大医院看"
+      },
+      {
+        "intent": "without_medical_treatment_reason",
+        "entities": [
+          {
+            "start": 2,
+            "end": 19,
+            "entity": "without_medical_reason",
+            "value": "手术的风险比较大不太想去做这个手术"
+          }
+        ],
+        "text": "因为手术的风险比较大不太想去做这个手术"
+      },
+      {
+        "intent": "inform_location",
+        "entities": [
+          {
+            "start": 0,
+            "end": 33,
+            "entity": "location",
+            "value": "湖南省长沙市开福区德雅路才子佳苑2期7栋门面103(近金帆路)附近"
+          }
+        ],
+        "text": "湖南省长沙市开福区德雅路才子佳苑2期7栋门面103(近金帆路)附近"
+      },
+      {
+        "intent": "inform_location",
+        "entities": [
+          {
+            "start": 0,
+            "end": 19,
+            "entity": "location",
+            "value": "湖南省长沙市芙蓉区南阳街8号华联商住楼"
+          }
+        ],
+        "text": "湖南省长沙市芙蓉区南阳街8号华联商住楼"
+      },
+      {
+        "intent": "no_job_exchange",
+        "text": "没有变动呢"
+      },
+      {
+        "intent": "deny_health",
+        "entities": [
+          {
+            "start": 2,
+            "end": 5,
+            "entity": "unhealth_status",
+            "value": "腿很疼"
+          }
+        ],
+        "text": "最近腿很疼"
+      },
+      {
+        "intent": "without_medical_treatment",
+        "entities": [
+          {
+            "start": 2,
+            "end": 7,
+            "entity": "unhealth_status",
+            "value": "时常会抽搐"
+          }
+        ],
+        "text": "就是时常会抽搐，这几天没空就没去医院看"
+      },
+      {
+        "intent": "without_medical_treatment_reason",
+        "entities": [
+          {
+            "start": 2,
+            "end": 11,
+            "entity": "without_medical_reason",
+            "value": "感觉没有太大的问题"
+          }
+        ],
+        "text": "因为感觉没有太大的问题就没去看病"
+      }
+    ],
+    "regex_features": [],
+    "lookup_tables": [],
+    "entity_synonyms": []
+  }
+}

@@ -1,0 +1,99 @@
+intents:
+- greet
+- deny
+- confirm
+- goodbye
+- confirm_in_city
+- confirm_not_in_city
+- deny_leave_approval_status
+- inform_location
+- confirm_job_exchange
+- answer_job_exchange_reason
+- no_job_exchange
+- confirm_job_situation
+- confirm_health
+- deny_health
+- with_medical_treatment
+- without_medical_treatment
+- without_medical_treatment_reason
+- confirm_leave_approval_status
+entities:
+- name
+- location
+- new_job_location
+- unhealth_status
+- without_medical_reason
+- job_situation
+- job_exchange_reason
+slots:
+  is_health_OK:
+    type: unfeaturized
+  is_in_city:
+    type: unfeaturized
+  is_job_exchange:
+    type: unfeaturized
+  job_exchange_reason:
+    type: unfeaturized
+  job_situation:
+    type: unfeaturized
+  leave_approval_status:
+    type: unfeaturized
+  location:
+    type: unfeaturized
+  name:
+    type: unfeaturized
+  new_job_location:
+    type: unfeaturized
+  unhealth_status:
+    type: unfeaturized
+  without_medical_reason:
+    type: unfeaturized
+templates:
+  utter_answer_greet:
+  - text: hello, can you answer the phone now
+  utter_arrange_next_time:
+  - text: maybe one hour later I will contact again
+  utter_identifying:
+  - text: please say 123456789
+  utter_whether_in_city:
+  - text: are you in city now
+  utter_ask_leave_approval_status:
+  - text: have you application and being permitted
+  utter_ask_location:
+  - text: where are you now
+  utter_ask_job_exchange:
+  - text: have you job exchanged
+  utter_ask_exchange_reason:
+  - text: why did you job exchanged
+  utter_ask_job_situation:
+  - text: how about you job situation
+  utter_ask_health_status:
+  - text: Whether the body is healthy recently
+  utter_ask_medical_treatment_status:
+  - text: Going to see a doctor
+  utter_ask_without_medical_treatment_reason:
+  - text: Why didn't you go see a doctor?
+actions:
+- utter_answer_greet
+- utter_arrange_next_time
+- utter_identifying
+- utter_whether_in_city
+- utter_ask_leave_approval_status
+- utter_ask_location
+- utter_ask_job_exchange
+- utter_ask_exchange_reason
+- utter_ask_job_situation
+- utter_ask_health_status
+- utter_ask_medical_treatment_status
+- utter_ask_without_medical_treatment_reason
+- action_voiceprint_verification
+- action_record_in_city
+- action_record_out_city
+- action_record_no_leave_approval
+- action_detective_approval
+- action_record_job_exchange
+- action_record_no_job_exchange
+- action_record_health
+- action_record_unhealth
+- action_dialogue_completion_detect
+- action_record_leave_approval
